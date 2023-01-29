@@ -44,6 +44,10 @@
   --search-local-hit-active-color: #0a141c;
   --ifm-breadcrumb-border-radius: 0.4rem;
   --ifm-breadcrumb-padding-vertical: 0.2rem;
+
+  --ifm-color-collapsible-accent: #8891ec;
+  --ifm-color-collapsible-content: #2b349111;
+  --ifm-color-collapsible-content-hovered: #2b349122;
 }
 
 button {
@@ -62,6 +66,7 @@ html[data-theme="dark"] {
   --ifm-menu-color-background-active: #343a46;
   --ifm-card-background-color: #343a46;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-collapsible-accent: #77b7d7;
 }
 
 [data-theme="dark"] img {

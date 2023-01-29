@@ -17,6 +17,22 @@ Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new
 - [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
+import CollapsibleAnswer from '@site/src/components/CollapsibleAnswer';
+
+# Markdown
+
+<CollapsibleAnswer>
+
+### Hidden content
+
+```js
+function someFn() {
+  return;
+}
+```
+
+</CollapsibleAnswer>
+
 ## Generate a new site
 
 Generate a new Docusaurus site using the **classic template**.
@@ -30,6 +46,20 @@ npm init docusaurus@latest my-website classic
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
 The command also installs all necessary dependencies you need to run Docusaurus.
+
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
+
+:::tip Use tabs in admonitions
+
+<Tabs>
+  <TabItem value="apple" label="Apple">This is an apple 🍎</TabItem>
+  <TabItem value="orange" label="Orange">This is an orange 🍊</TabItem>
+  <TabItem value="banana" label="Banana">This is a banana 🍌</TabItem>
+</Tabs>
+
+:::
 
 ## Start your site
 
