@@ -7,7 +7,9 @@ export default function CollapsibleAnswer(props) {
 
   return (
     <Details className={styles.collapsible}>
-      <summary mdxType="summary">Show Answer</summary>
+      <summary mdxType="summary" className={styles.header}>
+        Show Answer
+      </summary>
 
       {children}
     </Details>

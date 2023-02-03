@@ -30,6 +30,7 @@ const config = {
           remarkPlugins: [math],
           rehypePlugins: [katex],
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "notes",
         },
         blog: false,
         theme: {
@@ -58,17 +59,14 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
-    // "@aldridged/docusaurus-plugin-lunr",
-    // [
-    //   require.resolve("@cmfcmf/docusaurus-search-local"),
-    //   {
-    //     indexBlog: false,
-    //   },
-    // ],
-    // require.resolve("docusaurus-lunr-search"),
   ],
   themes: [
-    require.resolve("@easyops-cn/docusaurus-search-local"),
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        docsRouteBasePath: ["psets", "labs", "docs"],
+      },
+    ],
     [
       "docusaurus-live-brython",
       {
@@ -127,7 +125,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/notes/intro",
               },
             ],
           },

@@ -14,3 +14,7 @@
 .collapsible:hover {
   background-color: var(--ifm-color-collapsible-content-hovered);
 }
+
+.header {
+  font-weight: bold;
+}
