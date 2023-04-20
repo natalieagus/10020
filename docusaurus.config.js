@@ -10,16 +10,16 @@ const katex = require("rehype-katex");
 const config = {
   title: "10.020",
   tagline: "The best way to learn programming is to write programs.",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://natalieagus.github.io",
+  baseUrl: "/docu-website/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "SUTD", // Usually your GitHub org/user name.
-  projectName: "10.020", // Usually your repo name.
+  organizationName: "natalieagus", // Usually your GitHub org/user name.
+  projectName: "docu-website", // Usually your repo name.
 
   presets: [
     [
