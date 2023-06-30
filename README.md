@@ -1,3 +1,11 @@
+## Getting started
+
+1. Clone this project, then `npm install`
+2. Afterwards, type `npm start`
+3. You can publish this site to github automatically by pushing this to your `master` branch. See `.github/workflows/deploy.yml`
+4. Edit `docusaurus.config.js` accordingly to use on your site
+5. The file `src/pages/index.js` contains the homepage. Edit it to your liking.
+
 ## Custom modifications
 
 1. Add icons to /static/img
