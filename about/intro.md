@@ -2,6 +2,7 @@
 title: About
 description: 10.020 DDW Subject Details
 hide_table_of_contents: false
+sidebar_position: 1
 ---
 
 ## About Data Driven World (DDW)

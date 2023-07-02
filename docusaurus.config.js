@@ -59,12 +59,21 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "about",
+        path: "about",
+        routeBasePath: "about",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
   ],
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        docsRouteBasePath: ["psets", "labs", "docs"],
+        docsRouteBasePath: ["psets", "labs", "docs", "about"],
       },
     ],
     [
@@ -87,11 +96,11 @@ const config = {
         buttons: {
           primary: {
             label: "About",
-            href: "https://www.astronomer.io/try-astro/?referral=docs-what-astro-banner",
+            href: "about/intro",
           },
           secondary: {
             label: "Learning Objectives",
-            href: "https://www.astronomer.io/?referral=docs-what-astro-banner",
+            href: "about/learning-objectives",
           },
         },
       },
@@ -108,9 +117,10 @@ const config = {
             position: "right",
           },
           {
-            to: "/about", // ./docs-api/Intro.md
+            to: "/about/intro", // ./docs-api/Intro.md
             label: "About",
             position: "left",
+            activeBaseRegex: `/about/`,
           },
           {
             type: "doc",
