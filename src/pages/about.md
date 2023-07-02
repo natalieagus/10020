@@ -3,15 +3,15 @@ title: About
 description: 10.020 DDW Subject Details
 ---
 
-## About Data Driven World (DDW)
+# About Data Driven World (DDW)
 
 This course provides fundamentals for students with the necessary skills in a data driven world. The first half of the course focuses on providing students with algorithmic thinking and different paradigms of computation such as procedural, object-oriented design and state machine. The second half of the course focuses on a basic introduction to machine learning for categorical and continuous data. Students will be able to apply both algorithms and basic machine learning techniques to solve real-world problems driven by data and computation.
 
-## Prerequisite
+# Prerequisite
 
 10.014 Computational Thinking for Design (Term 1)
 
-## Assessments
+# Assessments
 
 | Components                    | Percentage |
 | ----------------------------- | ---------- |
@@ -29,7 +29,7 @@ For Audit students to be considered pass, they need to have above 80% scores for
 - Cohort Sessions and Homeworks
 - Pre-Class Activities
 
-## Learning Objectives
+# Learning Objectives
 
 By the end, students should be able to:
 
