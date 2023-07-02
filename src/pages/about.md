@@ -44,3 +44,20 @@ By the end, students should be able to:
 - **Analyse** and evaluate logistic regression using confusion matrix, its accuracy and recall
 - **Design** state machine and implement it using object oriented paradigm
 - **Fix** syntax errors and debug semantic errors using print statements
+
+## Text References
+
+Instructors will provide reading materials for each week. The references for this course include:
+
+- [How to Think Like a Computer Scientist](https://runestone.academy/runestone/books/published/thinkcspy/index.html)
+- [Cormen, Thomas H., et al. Introduction to Algorithms, Third Edition, MIT Press, 2009. ProQuest Ebook Central](https://ebookcentral.proquest.com/lib/sutd/detail.action?docID=3339142)
+- [James, Gareth et al. An Introduction to Statistical Learning: With Applications in R. Vol. 103. New York: Springer, 2013. Web](https://sutd.primo.exlibrisgroup.com/permalink/65SUTD_INST/1gbmki4/cdi_askewsholts_vlebooks_9781461471387)
+- [Murphy, Kevin P.. Machine Learning : A Probabilistic Perspective, MIT Press, 2012. ProQuest Ebook Central](https://ebookcentral.proquest.com/lib/sutd/detail.action?docID=3339490)
+
+## Instructional Methods and Expectations
+
+The course will be run using a project-based and flipped-classroom strategy. Students are expected to do pre-class activities before coming to class. In-class hours are used to discuss and solve problems as well as to do projects. Each week there are mini-projects related to the topics just introduced in that week and it culminates in one open project at the end.
+
+Students are expected to do their pre-reading and homework on their own while discussing the cohort sessions and projects with the instructors in class. There will be hands-on programming activities for all cohort sessions.
+
+## Lesson Format

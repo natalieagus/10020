@@ -1,14 +1,13 @@
 .subjectCard {
   background-color: var(--blue-100);
   padding: 1.5rem;
-  font-size: 15px;
   line-height: 1.6;
   border-radius: 6px;
   margin: 2rem 0;
 }
 
 .subjectCard__title {
-  font-size: 15px;
+  font-size: var(--ifm-h3-font-size);
   margin-top: 0 !important;
 }
 
@@ -26,8 +25,8 @@ html[data-theme="dark"] .subjectCard {
   display: inline-block;
   position: relative;
   text-decoration: none;
+
   padding: 9px 1rem 9px 1rem !important;
-  font-size: 12px;
   font-weight: 600;
   background-color: var(--ifm-color-primary);
   color: var(--ifm-background-color);
@@ -40,7 +39,7 @@ html[data-theme="dark"] .subjectCard {
 }
 
 .button:hover {
-  color: var(--gray-200);
+  color: white !important;
   text-decoration: none;
   background: var(--ifm-button-hover);
 }
