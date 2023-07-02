@@ -338,3 +338,8 @@ h1 {
 h2 {
   margin-top: 2rem !important;
 }
+
+.breakword {
+  white-space: break-spaces !important;
+  word-wrap: break-word;
+}

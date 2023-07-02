@@ -28,7 +28,10 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
 
-        <Link className="button--secondary button--lg button" to="/roadmap">
+        <Link
+          className={`button--secondary button--lg button breakword`}
+          to="/roadmap"
+        >
           Get Started with Our Roadmap 📍
         </Link>
       </div>
