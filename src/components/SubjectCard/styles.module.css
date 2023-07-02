@@ -9,6 +9,7 @@
 
 .subjectCard__title {
   font-size: 15px;
+  margin-top: 0 !important;
 }
 
 .subjectCard__buttons {
