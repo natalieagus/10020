@@ -30,7 +30,85 @@
 }
 
 @import "tailwindcss/tailwind.css"; */
+@import "fonts.css";
+@import "~@fontsource/inter";
+@import "~@fontsource/inter/600.css";
+@import "~@fontsource/inter/800.css";
+
 :root {
+  /* Typography */
+  --font-sans: "Inter", "Open Sans", sans-serif;
+  --font-sans-heading: "Inter", "Open Sans", sans-serif;
+  --font-serif: "Zilla Slab", "Times New Roman", serif;
+  --font-mono: "SFMono-Regular", "Menlo", monospace;
+  --font-size-00: 0.75rem;
+  --font-size-0: 0.875rem;
+  --font-size-1: 1rem;
+  --font-size-1-25: 1.25rem;
+  --font-size-2: 1.25rem;
+  --font-size-3: 1.5rem;
+  --font-size-4: 1.75rem;
+  --font-size-5: 2.5rem;
+  --font-size-body: 1.125rem;
+
+  /* Colors */
+  --white: #fff;
+  --black: #000;
+  --blue-100: #eefaff;
+  --blue-200: #dff5ff;
+  --blue-300: #bfeaff;
+  --blue-400: #6eceff;
+  --blue-500: #32b8fb;
+  --blue-600: #00a7fb;
+  --blue-700: #008ace;
+  --blue-800: #005580;
+  --blue-900: #00273b;
+  --purple-100: #f5f2fc;
+  --purple-200: #ece6f9;
+  --purple-300: #dbcdf6;
+  --purple-400: #c2aef0;
+  --purple-500: #9478d2;
+  --purple-600: #7352ba;
+  --purple-700: #59418d;
+  --purple-800: #3f2971;
+  --purple-900: #1a0d36;
+  --mint-100: #effbf9;
+  --mint-200: #cff2ec;
+  --mint-300: #9ee5d9;
+  --mint-400: #6fd7c6;
+  --mint-500: #4fceba;
+  --mint-600: #30b09c;
+  --mint-700: #26907f;
+  --mint-800: #1b6054;
+  --mint-900: #134038;
+  --orange-100: #fdf3ef;
+  --orange-200: #ffe0d5;
+  --orange-300: #ffc1ad;
+  --orange-400: #fea285;
+  --orange-500: #ff865e;
+  --orange-600: #ff6632;
+  --orange-700: #f53d01;
+  --orange-800: #cc3201;
+  --orange-900: #791f00;
+  --gray-100: #f2f4f7;
+  --gray-200: #e9ebf0;
+  --gray-300: #dadce0;
+  --gray-400: #c4c7cd;
+  --gray-500: #9ba0a8;
+  --gray-600: #858993;
+  --gray-700: #65686f;
+  --gray-800: #414246;
+  --gray-900: #1a1c1f;
+
+  /* Gradients */
+  --purple-gradient: linear-gradient(180deg, #1a0d36 0%, #59418d 100%);
+  --purple-gradient-rev: linear-gradient(180deg, #4c3b7f 0%, #291c4c 100%);
+
+  /* Shadows */
+  --shadow: 0 1px 1px 0 rgb(65 66 70 / 34%);
+
+  /* Borders */
+  --radius: 24px;
   --ifm-navbar-shadow: white;
   --ifm-font-size-base: 16px;
   --ifm-code-font-size: 90%;
@@ -51,11 +129,13 @@
 
   --ifm-color-secondary-dark: #381885;
   --ifm-color-secondary-contrast-background: #d2cde755;
-  --ifm-button-hover: #eafcff;
+  --ifm-button-hover: var(--ifm-footer-background-color);
+  --ifm-button-hover-color: white;
 }
 
 .button:hover {
-  /* font-weight: 600 !important; */
+  font-weight: 800;
+  color: var(--ifm-button-hover-color);
   background-color: var(--ifm-button-hover);
   border-color: var(--ifm-button-hover);
 }
@@ -65,7 +145,7 @@ html[data-theme="dark"] {
   --ifm-font-base-color: #dee0f2;
   --ifm-navbar-link-hover-color: #77b7d7;
   --ifm-link-color: #149eca;
-  --ifm-color-primary: #55ccde;
+  --ifm-color-primary: #79cedb;
   --ifm-menu-color-active: #149eca;
   --ifm-background-color: #0d1117;
   --ifm-footer-background-color: #0a141c;
@@ -74,12 +154,22 @@ html[data-theme="dark"] {
   --ifm-card-background-color: #343a46;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-color-collapsible-accent: #77b7d7;
-  --ifm-button-hover: #c8f8ff;
-  --ifm-color-secondary-dark: #86d9ca;
+  --ifm-color-secondary-dark: #a766dc;
   --ifm-color-secondary-contrast-background: rgba(227, 199, 247, 0.1);
+  /* --ifm-color-success-contrast-background: #4a5d40; */
+  --ifm-button-hover: var(--ifm-footer-background-color);
+  --ifm-button-hover-color: white;
 }
 
 [data-theme="dark"] img {
+  filter: invert(0.9) hue-rotate(180deg);
+}
+
+[data-theme="dark"] object {
+  filter: invert(0.9) hue-rotate(180deg) !important;
+}
+
+.invert-color {
   filter: invert(0.9) hue-rotate(180deg);
 }
 
@@ -231,4 +321,20 @@ html[data-theme="dark"] .header-github-link:before {
 
 .image-rendering-pixel {
   image-rendering: pixelated;
+}
+
+.svg-roadmap {
+  width: 100%;
+}
+
+.no-invert-color {
+  filter: none !important;
+}
+
+h1 {
+  margin-top: 6rem !important;
+}
+
+h2 {
+  margin-top: 4rem !important;
 }

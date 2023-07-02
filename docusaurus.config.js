@@ -8,8 +8,8 @@ const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "10.020",
-  tagline: "The best way to learn programming is to write programs.",
+  title: "Data Driven World 📚",
+  tagline: "The best way to learn programming is to write programs",
   url: "https://natalieagus.github.io",
   baseUrl: "/docu-website/",
   onBrokenLinks: "throw",
@@ -80,17 +80,37 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      subjectCard: {
+        title: "What will we learn in 10.020?",
+        description:
+          "The course is a continuation of 10.014 Computational Thinking for Design and is designed as a project-based course. It introduces students to data structures, algorithm, and introductory machine learning algorithm in a practical way.",
+        buttons: {
+          primary: {
+            label: "About",
+            href: "https://www.astronomer.io/try-astro/?referral=docs-what-astro-banner",
+          },
+          secondary: {
+            label: "Learning Objectives",
+            href: "https://www.astronomer.io/?referral=docs-what-astro-banner",
+          },
+        },
+      },
       navbar: {
         hideOnScroll: true,
-        title: "CourseID",
+        title: "10.020",
         logo: {
-          alt: "My Site Logo",
+          alt: "DDW Logo",
           src: "img/home-logo.svg",
         },
         items: [
           {
             type: "search",
             position: "right",
+          },
+          {
+            to: "/about", // ./docs-api/Intro.md
+            label: "About",
+            position: "left",
           },
           {
             type: "doc",
@@ -111,7 +131,12 @@ const config = {
             activeBaseRegex: `/labs/`,
           },
           {
-            href: "https://github.com/",
+            to: "/roadmap", // ./docs-api/Intro.md
+            label: "Roadmap",
+            position: "left",
+          },
+          {
+            href: "https://github.com/data-driven-world",
             label: "GitHub",
             position: "right",
           },
@@ -164,7 +189,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} 10.020, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 10.020 Data Driven World`,
       },
       prism: {
         theme: lightCodeTheme,
