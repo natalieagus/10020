@@ -8,10 +8,11 @@ import LinkCardGrid from "@site/src/components/LinkCardGrid";
 import LinkCard from "@site/src/components/LinkCard";
 import SubjectCard from "@site/src/components/SubjectCard";
 import styles from "./index.module.css";
+
 const homepageCardsStyle = {
   // display: "flex",
   // alignItems: "center",
-  padding: "2rem",
+  padding: "0 2rem 2rem 2rem",
   width: "100%",
 };
 
