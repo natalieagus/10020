@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # Tutorial Intro
 
+import ImageCard from '@site/src/components/ImageCard';
+
+<ImageCard path={require("./img/docusaurus.png").default} widthPercentage="20%"/>
+
 export const Highlight = ({children, color}) => (
 <span
 style={{
