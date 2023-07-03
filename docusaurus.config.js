@@ -31,6 +31,20 @@ const config = {
           rehypePlugins: [katex],
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "notes",
+          admonitions: {
+            tag: ":::",
+            keywords: [
+              "info",
+              "success",
+              "danger",
+              "note",
+              "tip",
+              "warning",
+              "important",
+              "caution",
+              "keyword",
+            ],
+          },
         },
         blog: false,
         theme: {
@@ -124,7 +138,7 @@ const config = {
           },
           {
             type: "doc",
-            docId: "intro",
+            docId: "introduction",
             position: "left",
             label: "Lecture Notes",
           },
@@ -160,7 +174,7 @@ const config = {
             items: [
               {
                 label: "Lecture Notes",
-                to: "/notes/intro",
+                to: "/notes/introduction",
               },
               {
                 label: "Problem Sets",

@@ -3,7 +3,7 @@
   padding: 1.5rem;
   line-height: 1.6;
   border-radius: 6px;
-  margin: 2rem 0;
+  margin: 0;
 }
 
 .subjectCard__title {
@@ -50,7 +50,7 @@ html[data-theme="dark"] .button__outline {
 }
 
 .button:visited {
-  color: var(--gray-800);
+  color: var(--ifm-background-color);
 }
 
 .button__outline {
@@ -60,7 +60,7 @@ html[data-theme="dark"] .button__outline {
 }
 
 .button__outline:hover {
-  color: var(--blue-600);
+  color: var(--blue-900) !important;
   border-color: var(--blue-300);
   background: var(--blue-300);
 }

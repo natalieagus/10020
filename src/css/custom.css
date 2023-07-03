@@ -343,3 +343,18 @@ h2 {
   white-space: break-spaces !important;
   word-wrap: break-word;
 }
+
+/* Custom Admonition */
+.alert--keyword {
+  --ifm-alert-background-color: #ffeaddb8;
+  --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15);
+  --ifm-alert-foreground-color: rgb(29, 29, 29);
+  --ifm-alert-border-color: #ff6666;
+}
+
+html[data-theme="dark"] .alert--keyword {
+  --ifm-alert-background-color: #ffeadd3b;
+  --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15);
+  --ifm-alert-foreground-color: rgb(209, 209, 209);
+  --ifm-alert-border-color: #ff6666;
+}
