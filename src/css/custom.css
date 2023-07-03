@@ -123,9 +123,9 @@
   --ifm-breadcrumb-border-radius: 0.4rem;
   --ifm-breadcrumb-padding-vertical: 0.2rem;
 
-  --ifm-color-collapsible-accent: #8891ec;
-  --ifm-color-collapsible-content: #2b349111;
-  --ifm-color-collapsible-content-hovered: #2b349122;
+  --ifm-color-collapsible-accent: #0285ff;
+  --ifm-color-collapsible-content: #0071e911;
+  --ifm-color-collapsible-content-hovered: #0071e923;
 
   --ifm-color-secondary-dark: #381885;
   --ifm-color-secondary-contrast-background: #d2cde755;

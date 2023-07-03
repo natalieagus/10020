@@ -2,15 +2,13 @@ import Details from "@theme/MDXComponents/Details";
 import React from "react";
 import styles from "./styles.module.css";
 
-export default function CollapsibleAnswer(props) {
-  const { children } = props;
-
+// Default title is Show Answer unless given as answerTitle prop
+export default function CollapsibleAnswer({ children, title }) {
   return (
     <Details className={styles.collapsible}>
       <summary mdxType="summary" className={styles.header}>
-        Show Answer
+        {title ? title : "Show Answer"}
       </summary>
-
       {children}
     </Details>
   );

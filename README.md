@@ -14,3 +14,5 @@
 4. enable brython `npm i docusaurus-live-brython`
 5. add docs plugin to have docs on another folder `npm install --save @docusaurus/plugin-content-docs`
 6. Add setting to the docusaurus search local to include other docs route base path like psets labs etc that's defined in (5)
+7. Swizzled Admonitions: see `docusaurus.config.js`
+8. Custom components: see `src/components`
