@@ -60,28 +60,28 @@ export default function Home() {
                 topIcon
                 label="Fundamental Algorithms"
                 description="The best way to warm up and practice your programming skills is by writing actual code. One of the common computation is to sort some items in some way. For example, sorting a number from smallest to biggest or names alphabetically. In this article, we will describe some sorting algorithms which you can implement in Python."
-                href="/notes/intro"
+                href="/notes/sorting-algorithms/bubble-sort"
                 Svg={gs_1}
               />
               <LinkCard
                 topIcon
                 label="Graph Theory"
                 description="Graphs are powerful mathematical structures that serve as a fundamental tool for representing and analyzing relationships between objects or entities. They provide a visual and abstract representation of interconnectedness, making them applicable to a wide range of fields, including computer science, mathematics, social sciences, and more."
-                href="/notes/intro"
+                href="/notes/introduction"
                 Svg={gs_2}
               />
               <LinkCard
                 topIcon
                 label="From Data to Predictions"
                 description="The core idea behind machine learning is to enable computers to analyze and interpret large amounts of data, identify patterns, and make informed predictions or decisions based on that information. Instead of relying on explicit instructions, machine learning algorithms are designed to learn from examples and adapt their behavior accordingly."
-                href="/notes/intro"
+                href="/notes/introduction"
                 Svg={gs_3}
               />
               <LinkCard
                 topIcon
                 label="Modeling and Controlling Dynamic Systems"
                 description="State machines are essential tools in computer science and control systems, and understanding their principles is crucial for building robust and efficient software and hardware systems. "
-                href="/notes/intro"
+                href="/notes/introduction"
                 Svg={gs_4}
               />
             </LinkCardGrid>
