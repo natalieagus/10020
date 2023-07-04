@@ -373,3 +373,9 @@ html[data-theme="dark"] .alert--keyword {
   --ifm-alert-foreground-color: rgb(209, 209, 209);
   --ifm-alert-border-color: #ff6666;
 }
+
+/* @media (max-width: 1280px) {
+  .navbar__toggle {
+    display: inherit !important;
+  }
+} */

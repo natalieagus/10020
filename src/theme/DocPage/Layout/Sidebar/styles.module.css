@@ -7,11 +7,11 @@
   display: none;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 997px) {
   .docSidebarContainer {
     display: block;
     max-width: var(--doc-sidebar-width);
-    margin-left: calc(1 * var(--ifm-navbar-height));
+    margin-left: calc(1 * var(--ifm-navbar-height) / 2);
     margin-top: calc(-1 * var(--ifm-navbar-height));
     border-right: 0px solid var(--ifm-toc-border-color);
     will-change: width;
