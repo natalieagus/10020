@@ -5,6 +5,8 @@ hide_table_of_contents: false
 sidebar_position: 1
 ---
 
+import ImageCard from '@site/src/components/ImageCard';
+
 ## About Data Driven World (DDW)
 
 This course provides fundamentals for students with the necessary skills in a data driven world. The first half of the course focuses on providing students with algorithmic thinking and different paradigms of computation such as procedural, object-oriented design and state machine. The second half of the course focuses on a basic introduction to machine learning for categorical and continuous data. Students will be able to apply both algorithms and basic machine learning techniques to solve real-world problems driven by data and computation.
@@ -62,3 +64,7 @@ The course will be run using a project-based and flipped-classroom strategy. Stu
 Students are expected to do their pre-reading and homework on their own while discussing the cohort sessions and projects with the instructors in class. There will be hands-on programming activities for all cohort sessions.
 
 ## Lesson Format
+
+Each week we allocate 5 hours of cohort lessons. You are recommended to spend 1.5 hours for pre-class activities and 5.5 hours for homework and mini projects weekly as well.
+
+<ImageCard path={require("./images/DDW-2023-Lesson-Time.drawio-2.png").default} widthPercentage="80%"/>

@@ -2,9 +2,15 @@
 sidebar_position: 1
 ---
 
+import ImageCard from '@site/src/components/ImageCard';
+
 # Syllabus
 
-This page summarises the links to all notes that are relevant to 10.020. Please read them carefully by the weeks stipulated.
+<ImageCard path={require("./images/DDW-2023.drawio.png").default} widthPercentage="40%"/>
+
+This page summarises the links to all notes that are relevant to 10.020. Please read them **carefully** by the weeks stipulated. You will learn each of the big topics above in the following weeks:
+
+<ImageCard path={require("./images/DDW-2023-Flow.drawio.png").default} widthPercentage="70%"/>
 
 ### Week 01: Python Revision and Sorting Algorithm
 
