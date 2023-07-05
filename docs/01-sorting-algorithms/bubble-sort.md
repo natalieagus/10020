@@ -35,7 +35,7 @@ def someFunction:
 The purpose of this button is to show you the pseudocode of the algorithm. But more importantly, the button is placed there so that you **don't immediately** see the pseudocode. The purpose is for you to **write down your own pseudocode** and compare your pseudocode with what is provided in these notes.
 </DeepDive>
 
-Another thing about pseudocode is that it is <span style={{ "color":"red", "font-weight": "bold" }}>not</span> a Python code.
+Another thing about pseudocode is that it is <span style={{ "color":"red", "fontWeight": "bold" }}>not</span> a Python code.
 
 :::warning Pseudocode ≠ Code
 **Do not copy and paste the pseudocode** into any Python interpreter or Jupyter notebook cell and expect it to work. There is a good reason why it is called _pseudocode_ and not _pythoncode_. See [definition of pseudo](https://www.google.com/search?client=opera&q=define%3A+pseudo&sourceid=opera&ie=UTF-8&oe=UTF-8).

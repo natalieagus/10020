@@ -8,7 +8,7 @@ import LinkCardGrid from "@site/src/components/LinkCardGrid";
 import LinkCard from "@site/src/components/LinkCard";
 import SubjectCard from "@site/src/components/SubjectCard";
 import styles from "./index.module.css";
-
+import ChatBaseBubble from "../components/ChatBaseBubble";
 const homepageCardsStyle = {
   // display: "flex",
   // alignItems: "center",
@@ -25,6 +25,7 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
+      <ChatBaseBubble />
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>

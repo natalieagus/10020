@@ -146,8 +146,8 @@ Looking at the above case, we can try to write down our algorithm in pseudocode.
 
 There are **two** iterations in the steps above:
 
-1. <span style={{ "color":"red", "font-weight": "bold" }}>outer</span> iteration is moving from the _second_ element to the last element in the list. What the outer iteration does is to place that n-th element into its position.
-2. <span style={{ "color":"red", "font-weight": "bold" }}>inner</span> iteration is swapping the n-th element until either:
+1. <span style={{ "color":"red", "fontWeight": "bold" }}>outer</span> iteration is moving from the _second_ element to the last element in the list. What the outer iteration does is to place that n-th element into its position.
+2. <span style={{ "color":"red", "fontWeight": "bold" }}>inner</span> iteration is swapping the n-th element until either:
    - it reaches the most left position, or
    - the number on its left is smaller
 
