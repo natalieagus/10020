@@ -14,7 +14,7 @@ This page summarises the links to all notes that are relevant to 10.020. Please 
 
 ### Week 01: Python Revision and Sorting Algorithm
 
-- [Bubble Sort and Insertion Sort](http://localhost)
+- [Bubble Sort and Insertion Sort](/notes/category/sorting-algorithms)
 
 ### Week 02: Analysing Programs
 

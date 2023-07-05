@@ -7,6 +7,8 @@ import DeepDive from '@site/src/components/DeepDive';
 
 # Bubble Sort
 
+Bubble sort is a simple comparison-based sorting algorithm that repeatedly swaps adjacent elements until the list is sorted.
+
 ### Goals
 
 By the end of this lesson, you should be able to implement **bubble sort**.
