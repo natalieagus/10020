@@ -10,4 +10,4 @@ Here's a Roadmap for you to help you get through tough times. Nodes are clickabl
 
 > This map is inspired by [roadmap.sh](https://roadmap.sh). Give the site a visit, tons of amazing roadmaps in there!
 
-<object type="image/svg+xml" data="./assets/roadmap.svg" className="svg-roadmap"></object>
+<object type="image/svg+xml" data="./assets/roadmap.svg" style={{ "width": "100%" }}></object>

@@ -109,11 +109,12 @@
 
   /* Borders */
   --radius: 24px;
+
+  /* Docusaurus setting */
   --ifm-navbar-shadow: white;
   --ifm-font-size-base: 16px;
   --ifm-code-font-size: 90%;
   --ifm-background-color: var(--white);
-  /* --ifm-color-primary: var(--nebula-500); */
   --ifm-color-primary: #087ea4;
   --ifm-footer-background-color: #23272f;
   --ifm-menu-color-background-active: var(--ifm-color-emphasis-200);
@@ -122,29 +123,23 @@
   --search-local-hit-active-color: #0a141c;
   --ifm-breadcrumb-border-radius: 0.4rem;
   --ifm-breadcrumb-padding-vertical: 0.2rem;
+  --ifm-color-secondary-dark: #381885;
+  --ifm-color-secondary-contrast-background: #d2cde755;
 
+  /* Custom components color */
   --ifm-color-collapsible-accent: #0285ff;
   --ifm-color-collapsible-content: #0071e911;
   --ifm-color-collapsible-content-hovered: #0071e923;
-
-  --ifm-color-secondary-dark: #381885;
-  --ifm-color-secondary-contrast-background: #d2cde755;
   --ifm-button-hover: var(--ifm-footer-background-color);
   --ifm-button-hover-color: white;
   --ifm-border-color: #ccc;
 
+  /* Custom font setup */
   font-family: "Chinese Quotes", "Inter var", "Inter", ui-sans-serif, system-ui,
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
     Helvetica, Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 1.75;
-}
-
-.button:hover {
-  font-weight: 800;
-  color: var(--ifm-button-hover-color);
-  background-color: var(--ifm-button-hover);
-  border-color: var(--ifm-button-hover);
 }
 
 html[data-theme="dark"] {
@@ -160,25 +155,23 @@ html[data-theme="dark"] {
   --ifm-menu-color-background-active: #343a46;
   --ifm-card-background-color: #343a46;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-color-collapsible-accent: #77b7d7;
   --ifm-color-secondary-dark: #a766dc;
   --ifm-color-secondary-contrast-background: rgba(227, 199, 247, 0.1);
-  /* --ifm-color-success-contrast-background: #4a5d40; */
+
+  /* Custom components color */
+  --ifm-color-collapsible-accent: #77b7d7;
   --ifm-button-hover: var(--ifm-footer-background-color);
   --ifm-button-hover-color: white;
   --ifm-border-color: #6f6f6f;
 }
 
+/* Invert images and object color on dark mode*/
 [data-theme="dark"] img {
   filter: invert(0.9) hue-rotate(180deg);
 }
 
 [data-theme="dark"] object {
   filter: invert(0.9) hue-rotate(180deg) !important;
-}
-
-.invert-color {
-  filter: invert(0.9) hue-rotate(180deg);
 }
 
 .docusaurus-highlight-code-line {
@@ -331,14 +324,20 @@ html[data-theme="dark"] .header-github-link:before {
   image-rendering: pixelated;
 }
 
-.svg-roadmap {
-  width: 100%;
-}
-
+/* Manually prevent invert of some images in dark mode */
 .no-invert-color {
   filter: none !important;
 }
 
+/* Change the way buttons look when hovered */
+.button:hover {
+  font-weight: 800;
+  color: var(--ifm-button-hover-color);
+  background-color: var(--ifm-button-hover);
+  border-color: var(--ifm-button-hover);
+}
+
+/* Custom margins on headers*/
 h1 {
   margin-top: 3rem !important;
 }
@@ -354,12 +353,13 @@ h3 {
   margin-top: 3rem !important;
 }
 
+/* Allows for word breaking on buttons and other components when used */
 .breakword {
   white-space: break-spaces !important;
   word-wrap: break-word;
 }
 
-/* Custom Admonition */
+/* Custom Admonition: keyword */
 .alert--keyword {
   --ifm-alert-background-color: #ffeaddb8;
   --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15);
@@ -374,8 +374,23 @@ html[data-theme="dark"] .alert--keyword {
   --ifm-alert-border-color: #ff6666;
 }
 
-/* @media (max-width: 1280px) {
-  .navbar__toggle {
-    display: inherit !important;
+/* Custom h2 for card to not cause big DocCard */
+.card h2 {
+  margin-top: 0rem !important;
+  padding-top: 0rem;
+  border-top: 0px;
+}
+
+/* Sets sidebar and navbar to be centered on super wide screens */
+@media (min-width: 1616px) {
+  .main-wrapper {
+    align-self: center;
+    max-width: 1600px;
+    width: 1600px;
   }
-} */
+}
+
+.navbar .navbar__inner {
+  margin: 0 auto;
+  max-width: 1560px;
+}
