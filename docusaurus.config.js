@@ -140,11 +140,11 @@ const config = {
             type: "doc",
             docId: "introduction",
             position: "left",
-            label: "Lecture Notes",
+            label: "Notes",
           },
           {
             to: "/psets/intro", // ./docs-api/Intro.md
-            label: "Problem Sets",
+            label: "Psets",
             position: "left",
             activeBaseRegex: `/psets/`,
           },
