@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "natalieagus", // Usually your GitHub org/user name.
-  projectName: "docu-website", // Usually your repo name.
+  projectName: "10020", // Usually your repo name.
 
   presets: [
     [
