@@ -1,3 +1,9 @@
+# 10.020 Data Driven World
+
+This is an experimental course website for 10.020 Data Driven World module.
+
+You can contribute by forking this repository and creating pull requests 😊
+
 ## Getting started
 
 1. Clone this project, then `npm install`
