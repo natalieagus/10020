@@ -7,7 +7,7 @@ import DeepDive from '@site/src/components/DeepDive';
 import ImageCard from '@site/src/components/ImageCard';
 import ChatBase from '@site/src/components/ChatBase';
 
-# Chatbot
+# DDW Chatbot
 
 You can ask our chatbot, `cschatbot` anything pertaining information related to this website.
 

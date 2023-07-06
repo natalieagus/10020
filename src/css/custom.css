@@ -168,6 +168,7 @@ html[data-theme="dark"] {
   --ifm-color-secondary-contrast-background: rgba(227, 199, 247, 0.1);
   --ifm-background-color: #1e2125;
   --ifm-background-surface-color: #121212;
+  --ifm-color-primary-lightest: #06627d;
   /* Custom components color */
   --ifm-color-collapsible-accent: #77b7d7;
   --ifm-button-hover: var(--ifm-footer-background-color);
