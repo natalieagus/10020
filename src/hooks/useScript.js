@@ -15,6 +15,7 @@ const useScript = (url, canUseDOM) => {
     }
     return () => {
       if (canUseDOM) {
+        let script = document.getElementById("WEKu7pDAS20WhGVVi4yPt");
         document.body.removeChild(script);
       }
     };

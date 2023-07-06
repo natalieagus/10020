@@ -6,7 +6,7 @@ import ExecutionEnvironment from "@docusaurus/ExecutionEnvironment";
 export default function ChatBaseBubble() {
   let url = "";
   const canUseDOM = ExecutionEnvironment.canUseDOM;
-  if (ExecutionEnvironment.canUseDOM) {
+  if (canUseDOM) {
     url = require("@site/static/chatbase.js").default;
   }
   useScript(url, canUseDOM);
