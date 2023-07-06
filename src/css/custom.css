@@ -418,7 +418,7 @@ html[data-theme="dark"] .alert--keyword {
   }
 }
 
-/* Chatbase styling */
+/* Chatbase styling*/
 .chatbase-bubble-img {
   filter: none !important;
   border-radius: 25px;
@@ -429,7 +429,8 @@ html[data-theme="dark"] .alert--keyword {
 .chatbase-bubble-button {
   width: 3rem;
   height: 3rem;
-  right: 1rem;
+  right: auto;
+  left: 1rem !important;
   bottom: 1rem !important;
   background-color: $main-color-1 !important;
 }
