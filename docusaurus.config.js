@@ -99,6 +99,7 @@ const config = {
           "https://cdn.jsdelivr.net/npm/brython@3.9.5/brython_stdlib.js", // default
       },
     ],
+    "@docusaurus/theme-mermaid",
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -229,6 +230,9 @@ const config = {
       crossorigin: "anonymous",
     },
   ],
+  markdown: {
+    mermaid: true,
+  },
 };
 
 module.exports = config;

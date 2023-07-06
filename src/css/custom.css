@@ -434,3 +434,9 @@ html[data-theme="dark"] .alert--keyword {
   bottom: 1rem !important;
   background-color: $main-color-1 !important;
 }
+
+/* Mermaid */
+.docusaurus-mermaid-container {
+  display: flex;
+  justify-content: center;
+}
