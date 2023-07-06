@@ -4,9 +4,11 @@ sidebar_position: 1
 
 import CollapsibleAnswer from '@site/src/components/CollapsibleAnswer';
 import DeepDive from '@site/src/components/DeepDive';
+import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Bubble Sort
 
+<ChatBaseBubble/>
 Bubble sort is a simple comparison-based sorting algorithm that repeatedly swaps adjacent elements until the list is sorted.
 
 ### Goals

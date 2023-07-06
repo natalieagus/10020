@@ -4,9 +4,11 @@ sidebar_position: 1
 
 import CollapsibleAnswer from '@site/src/components/CollapsibleAnswer';
 import DeepDive from '@site/src/components/DeepDive';
+import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Insertion Sort
 
+<ChatBaseBubble/>
 Insertion sort is a comparison-based sorting algorithm that builds the final sorted array one element at a time by inserting each element into its correct position within the already sorted portion of the array.
 
 ### Goals

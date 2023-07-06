@@ -5,6 +5,9 @@ hide_table_of_contents: false
 sidebar_position: 2
 ---
 
+import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
+<ChatBaseBubble/>
+
 ## Week 1: Python ([Concept Map](https://drive.google.com/file/d/11dFasj8ePnDj0TPYWCRrrWckVQk21fjd/view?usp=sharing))
 
 - Apply Python's **procedural** programming and **basic** data structures

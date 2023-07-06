@@ -5,8 +5,11 @@ sidebar_position: 3
 import CollapsibleAnswer from '@site/src/components/CollapsibleAnswer';
 import DeepDive from '@site/src/components/DeepDive';
 import ImageCard from '@site/src/components/ImageCard';
+import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Binary Heap
+
+<ChatBaseBubble/>
 
 Binary heap is a complete binary tree-based data structure that satisfies the heap property, where the key of each parent node is either greater than or equal to (in a max heap) or less than or equal to (in a min heap) the keys of its child nodes.
 

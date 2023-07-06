@@ -1,19 +1,22 @@
 import { useEffect } from "react";
 
-const useScript = (url) => {
+const useScript = (url, canUseDOM) => {
   useEffect(() => {
-    let script = document.createElement("script");
+    if (canUseDOM) {
+      let script = document.createElement("script");
 
-    script.src = url;
-    script.id = "WEKu7pDAS20WhGVVi4yPt";
-    script.setAttribute("id", "WEKu7pDAS20WhGVVi4yPt");
-    script.async = true;
-    script.type = "text/babel";
+      script.src = url;
+      script.id = "WEKu7pDAS20WhGVVi4yPt";
+      script.setAttribute("id", "WEKu7pDAS20WhGVVi4yPt");
+      script.async = true;
+      script.type = "text/babel";
 
-    document.body.appendChild(script);
-
+      document.body.appendChild(script);
+    }
     return () => {
-      document.body.removeChild(script);
+      if (canUseDOM) {
+        document.body.removeChild(script);
+      }
     };
   }, [url]);
 };
