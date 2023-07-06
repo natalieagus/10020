@@ -11,5 +11,5 @@ export default function ChatBaseBubble() {
   }
   useScript(url, canUseDOM);
 
-  return <BrowserOnly></BrowserOnly>;
+  return <BrowserOnly>{() => <div></div>}</BrowserOnly>;
 }
