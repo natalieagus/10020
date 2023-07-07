@@ -144,16 +144,16 @@ const config = {
             label: "Notes",
           },
           {
-            to: "/psets/intro", // ./docs-api/Intro.md
-            label: "Psets",
-            position: "left",
-            activeBaseRegex: `/psets/`,
-          },
-          {
             to: "/labs/intro", // ./docs-api/Intro.md
             label: "Labs",
             position: "left",
             activeBaseRegex: `/labs/`,
+          },
+          {
+            to: "/psets/intro", // ./docs-api/Intro.md
+            label: "Psets",
+            position: "left",
+            activeBaseRegex: `/psets/`,
           },
           {
             to: "/roadmap", // ./docs-api/Intro.md

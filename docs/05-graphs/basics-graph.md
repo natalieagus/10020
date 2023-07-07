@@ -99,13 +99,36 @@ You have learnt Object Oriented programming in the previous week. We can apply t
 - `Graph` class
 
 The `Vertex` class is similar to each entry in the dictionary. This class contains information on that particular vertex and who are the neighbouring or adjacent vertices connected this particular vertex. This class can also contains the weights of the connection between this vertex to its neighbours. The `Graph` class, on the other hand, contains the list of all the vertices in the graph. Each of this vertex is of the type `Vertex`. We can draw the UML diagram of these two classes as follows.
-<ImageCard path={require("./images/Graph_Vertex_Relationship.png").default} widthPercentage="50%"/>
+
+```mermaid
+classDiagram
+    Graph *-- Vertex
+```
 
 The above UML diagram shows that a `Graph` is composed of one or more `Vertex` objects. This is another _composition_ relationship between two classes.
 
 We can specify the attributes and methods for both classes as shown in the image below.
-<ImageCard path={require("./images/Graph_Vertex_Specification.png").default} widthPercentage="70%"/>
 
+```mermaid
+classDiagram
+class Graph{
+    vertices
+    add_vertex(id)
+    get_vertex(id)
+    add_edge(start_id, end_id, weight)
+    get_neighbours(id)
+    get_num_vertices()
+}
+class Vertex{
+    id
+    neighbours
+    add_neighbour(neighbour_vertex,weight)
+    get_neighbours()
+    get_weight(neighbour_vertex)
+}
+```
+
+<br/>
 The class `Graph` has an attribute called `vertices`. This attribute contains all the vertices in the graph where each vertex is of the type `Vertex`. This class has several methods like how to create or retrieve a `Vertex` object in the graph, add an edge between two vertices given their starting and ending `id`s. It may also have some other helper methods like to get all the neighbouring vertices of a given `Vertex` or to get the number of vertices in the graph. You can design some other methods but these are some of the common operations we may want to perform with a graph.
 
 The class `Vertex` has two attributes. The first one is the `id` or the label for the `Vertex` object and the second one is its neighbouring `Vertex` objects. The class has some basic operation such as to add a neighbouring `Vertex` to the current `Vertex` object, or to get all the neighbouring `Vertex` objects of the current Vertex. Lastly, it also has a method to get the weight of the edge to the neighbouring `Vertex` object. Similarly, you can think of some other operations of a `Vertex` object that may not be listed above.

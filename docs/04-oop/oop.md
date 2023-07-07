@@ -666,8 +666,18 @@ But now it is no longer necessary and Python knows how to convert your `Coordina
 
 In designing Object Oriented programs, we usually use a [UML diagram](https://en.wikipedia.org/wiki/Class_diagram). UML stands for _Unified Modeling Language_ and it gives some specifications how to represent the classes visually. For example, our `RobotTurtle` class is drawn as the following UML class diagram.
 
-<ImageCard path={require("./images/basic_class_attr_method.png").default} widthPercentage="20%"/>
+```mermaid
+classDiagram
+class RobotTurtle {
+    name
+    speed
+    pos
+    move()
+    tell_name()
+}
+```
 
+<br/>
 The UML Class diagram consists of three compartment:
 
 - The first compartment on the top: this specifies the class name
@@ -676,12 +686,28 @@ The UML Class diagram consists of three compartment:
 
 Sometime, it is useful to identify the property's type especially when there is a case of composition as in our `pos` property. In this case, we know that `pos` is of the type `Coordinate`. This is drawn in UML diagram as follows.
 
-<ImageCard path={require("./images/basic_class_attr_method_type.png").default} widthPercentage="20%"/>
+```mermaid
+classDiagram
+class RobotTurtle {
+    name: str
+    speed: int = 1
+    pos: Coordinate
+    move()
+    tell_name()
+}
+```
+
+<br/>
 
 UML diagram also allows us to specify the relationship between different classes. For example, `RobotTurtle` and `Coordinate` relationship can be drawn as shown below.
 
-<ImageCard path={require("./images/UML_class_relationship.png").default} widthPercentage="40%"/>
+```mermaid
+classDiagram
+    RobotTurtle *-- Coordinate
 
+```
+
+<br/>
 In this diagram, we see that one `RobotTurtle` can have one `Coordinate`. This is a specific kind of _association_ relationship called **composition**. This means that `RobotTurtle` is composed of a `Coordinate`. When the object `RobotTurtle` is destroyed, the `Coordinate` object associated with it is also destroyed. There are other kinds of relationship which we will introduce along the way.
 
 ## Try it out
