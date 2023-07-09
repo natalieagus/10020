@@ -247,22 +247,28 @@ bubbletime = [5.7220458984375e-06, 2.2649765014648438e-05,
 
 We can plot this and see the relationship between the number of elements and the computation time. To see the relationship better in this big range of number, we plot the log of $y$ and the log of $x$.
 
-```python
+<!-- try trinkets  -->
+
+<>
+
+<iframe src="https://trinket.io/embed/python3/8d65327122?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</>
+
+<!-- ```python
 import matplotlib.pyplot as plt
 import numpy as np
-
 nelements = [10, 100, 1000, 10000, 100000]
 bubbletime = [5.7220458984375e-06, 2.2649765014648438e-05,
-              0.0014679431915283203, 0.2126140594482422,
-              25.051520347595215]
-
+0.0014679431915283203, 0.2126140594482422,
+25.051520347595215]
 plt.title("Bubble Sort on Randomly Shuffled Array")
 plt.xlabel("log(number of input)")
 plt.ylabel("log(computation time (s))")
 plt.plot(np.log(nelements), np.log(bubbletime),'o-')
-```
+plt.show()
+```` -->
 
-<ImageCard path={require("./01-sorting-algorithms/images/plot_time_bubblesort.jpeg").default} widthPercentage="50%"/>
+<!-- <ImageCard path={require("./01-sorting-algorithms/images/plot_time_bubblesort.jpeg").default} widthPercentage="50%"/> -->
 
 We can see that the computation time increases as the input increases. Moreover we can see that the relationship is almost a straight line when we plot the logarithmic of the y axis and the logarithmic of the x axis. In fact, the relationship is a quadratic. If we get the slope of this log plot, taking the x-axis between 6 to 10, we get:
 
@@ -299,19 +305,23 @@ bubbletimeSorted = [6.4373016357421875e-06, 1.9073486328125e-06,
 
 We can plot this again on the same input.
 
-```python
+<>
+
+<iframe src="https://trinket.io/embed/python3/c4984d8c38?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</>
+
+<!-- ```python
 nelements = [10, 100, 1000, 10000, 100000]
 bubbletimeSorted = [6.4373016357421875e-06, 1.9073486328125e-06,
                     4.291534423828125e-06, 3.147125244140625e-05, 0.00030159950256347656]
-
 plt.title("Bubble Sort on an Already Sorted Array")
 plt.xlabel("log(number of input)")
 plt.ylabel("log(computation time (s))")
 plt.plot(np.log(nelements), np.log(bubbletimeSorted),'o-')
-```
+``` -->
 
-<ImageCard path={require("./01-sorting-algorithms/images/plot_time_bubblesort_sorted.jpeg").default} widthPercentage="50%"/>
-
+<!-- <ImageCard path={require("./01-sorting-algorithms/images/plot_time_bubblesort_sorted.jpeg").default} widthPercentage="50%"/> -->
+<br/>
 Taking the slope between 8 to 11, we have approximately the following slope:
 
 $$
@@ -336,8 +346,9 @@ insertiontime = [6.198883056640625e-06, 7.867813110351562e-06,
 ```
 
 We can plot this with the same input.
+<><iframe src="https://trinket.io/embed/python3/7da1014848?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
 
-<ImageCard path={require("./01-sorting-algorithms/images/plot_time_insertionsort_random.jpeg").default} widthPercentage="50%"/>
+<!-- <ImageCard path={require("./01-sorting-algorithms/images/plot_time_insertionsort_random.jpeg").default} widthPercentage="50%"/> -->
 
 We can again notice that the computation time increases in this logarithmic scales with a slope of about 2. This means that the computation time is also quadratic.
 
@@ -356,18 +367,18 @@ insertiontimeSorted = [5.7220458984375e-06, 1.430511474609375e-06,
 
 And if we plot, we will see the following.
 
-```python
+<><iframe src="https://trinket.io/embed/python3/266eeac4f5?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
+
+<!-- ```python
 nelements = [10, 100, 1000, 10000, 100000]
 insertiontimeSorted = [5.7220458984375e-06, 1.430511474609375e-06,
                        4.0531158447265625e-06, 3.123283386230469e-05, 0.0003333091735839844]
-
 plt.title("Insertion Sort on an Already Sorted Array")
 plt.xlabel("log(number of input)")
 plt.ylabel("log(computation time (s))")
 plt.plot(np.log(nelements), np.log(insertiontimeSorted),'o-')
 ```
-
-<ImageCard path={require("./01-sorting-algorithms/images/plot_time_insertionsort_sorted.jpeg").default} widthPercentage="50%"/>
+<ImageCard path={require("./01-sorting-algorithms/images/plot_time_insertionsort_sorted.jpeg").default} widthPercentage="50%"/> -->
 
 Similarly, in this plot, looking at the x axis between 7 to 11, the slope is about 1 indicating that the computation time is linear. So the computation time when the input is already sorted is linearly increasing with the input numbers, similar to Bubble Sort. This means that in the best case scenario, the computation time for Insertion Sort is linear.
 
@@ -387,19 +398,19 @@ heapsorttime = [5.0067901611328125e-06, 7.867813110351562e-06,
 
 A quick look actually shows that heapsort is much faster the other two. Let's plot it.
 
-```python
+<><iframe src="https://trinket.io/embed/python3/aa4c44edc5?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
+
+<!-- ```python
 nelements = [10, 100, 1000, 10000, 100000, 1000000]
 heapsorttime = [5.0067901611328125e-06, 7.867813110351562e-06,
                 9.512901306152344e-05, 0.0012400150299072266,
                 0.015644311904907227, 0.21677017211914062]
-
 plt.title("Heapsort on Randomly Shuffled Array")
 plt.xlabel("log(number of input)")
 plt.ylabel("log(computation time (s))")
 plt.plot(np.log(nelements), np.log(heapsorttime),'o-')
 ```
-
-<ImageCard path={require("./01-sorting-algorithms/images/plot_time_heapsort_random.jpeg").default} widthPercentage="50%"/>
+<ImageCard path={require("./01-sorting-algorithms/images/plot_time_heapsort_random.jpeg").default} widthPercentage="50%"/> -->
 
 We can see that the logarithmic plot has the slope of about:
 
@@ -411,7 +422,9 @@ The slope is actually slightly greater than one if we compute accurately. We fou
 
 It turns out that the computation time for Heapsort is logarithmic. We can see a linear relationship if the x-axis is computed as $n*log(n)$. We will plot the y axis as it is. See the plot below.
 
-```python
+<><iframe src="https://trinket.io/embed/python3/90e0df23f0?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
+
+<!-- ```python
 nelements = np.array([10, 100, 1000, 10000, 100000, 1000000])
 nlog = nelements * np.log(nelements)
 heapsorttime = [5.0067901611328125e-06, 7.867813110351562e-06,
@@ -422,9 +435,9 @@ plt.title("Heapsort on Randomly Shuffled Array")
 plt.xlabel("number of input * log(number of input)")
 plt.ylabel("computation time (s)")
 plt.plot(nlog, heapsorttime,'o-')
-```
+``` -->
 
-<ImageCard path={require("./01-sorting-algorithms/images/plot_time_heapsort_random_xaxis.jpeg").default} widthPercentage="50%"/>
+<!-- <ImageCard path={require("./01-sorting-algorithms/images/plot_time_heapsort_random_xaxis.jpeg").default} widthPercentage="50%"/> -->
 
 Notice that now the points fall almost in a straight line. This means that the computation time for heapsort is:
 
@@ -447,21 +460,20 @@ T(n) = O(n\log(n))
 $$
 
 We can plot this after modifying the x-axis accordingly.
+<><iframe src="https://trinket.io/embed/python3/58af38ba32?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
 
-```python
+<!-- ```python
 nelements = np.array([10, 100, 1000, 10000, 100000, 1000000])
 nlog = nelements * np.log(nelements)
 heapsorttimeSorted = [1.2874603271484375e-05, 7.3909759521484375e-06,
                       7.82012939453125e-05, 0.0008978843688964844,
                       0.009733200073242188, 0.11059808731079102]
-
 plt.title("Heapsort on an already Sorted Shuffled Array")
 plt.xlabel("number of input * log(number of input)")
 plt.ylabel("computation time (s)")
 plt.plot(nlog, heapsorttime,'o-')
 ```
-
-<ImageCard path={require("./01-sorting-algorithms/images/plot_time_heapsort_sorted.jpeg").default} widthPercentage="50%"/>
+<ImageCard path={require("./01-sorting-algorithms/images/plot_time_heapsort_sorted.jpeg").default} widthPercentage="50%"/> -->
 
 Let's summarize our findings in a table form.
 
@@ -600,11 +612,11 @@ $T(n) = O(1) + O(n) \times (2 \times O(1) + O(n) \times(O(1)) + O(1) )$
 
 $T(n) = O(1) + O(n) \times ( O(1) + O(n) + O(1) )$
 
-$T(n) = O(1) + O(n) \times O(n) $
+$T(n) = O(1) + O(n) \times O(n)$
 
-$T(n) = O(1) + O(n^2) $
+$T(n) = O(1) + O(n^2)$
 
-$T(n) = O(n^2) $
+$T(n) = O(n^2)$
 
 So Insertion sort is similar to Bubble sort in its computational time, which is a polynomial time and it's quadratic relationship with respect to the number of input.
 

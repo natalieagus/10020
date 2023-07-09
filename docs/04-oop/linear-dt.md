@@ -139,7 +139,7 @@ Post-Fix Evaluation Steps:
 
 In fact, perhaps unknowingly, you have had an encounter with stacks just a week ago. Computer actually uses stacks in recursion! (Call stacks are an important concept in general programming too!) Let's look at this in action with the factorial fuction. factorial(3), or 3! = 3\*2\*1. Here's a recursive function to calculate the factorial of a number:
 
-```python
+```python live_py
 def factorial(x):
   if x == 1:
     return 1

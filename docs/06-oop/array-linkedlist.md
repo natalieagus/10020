@@ -38,38 +38,40 @@ Once it is declared to have 10 spaces, the array cannot be extended. You need to
 
 Though Python does not have such fixed-size array, Numpy library implements something similar in its Numpy's array. For example, numpy array must have the same data type. The difference, however, you can extend the numpy array and you need not declare how many elements are there in the array.
 
-```python
+<><iframe src="https://trinket.io/embed/python3/83778cfa2b?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
+
+<!-- ```python
 import numpy as np
 number1 = np.array([1, 2, 3])
 print(number1, type(number1), number1.dtype)
 ```
-
 The output is
-
 ```sh
 [1 2 3] <class 'numpy.ndarray'> int64
-```
+``` -->
 
 The above code shows how to create a numpy array using `np.array()`. It takes in a list as its argument. Numpy will try to detect the data type and in the example above it was detected as `int64` which means a 64-bit integer.
 
 If one of the array is a float, Numpy will consider all elements as the float.
 
-```python
+<><iframe src="https://trinket.io/embed/python3/a48e54dfd1?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
+
+<!-- ```python
 number2 = np.array([1, 2, 3.0])
 print(number2, type(number2), number2.dtype)
 ```
-
 The output is
-
 ```sh
 [1. 2. 3.] <class 'numpy.ndarray'> float64
-```
+``` -->
 
 As shown in the output, all the elements are printed as a float and the type was detected as `float64`, which is a 64-bit float data type.
 
-However, Numpy provides additional functionalities to manipulate array such as to append or to insert.
+:::tip
+Numpy provides additional functionalities to manipulate array such as to append or to insert as shown above.
+:::
 
-```python
+<!-- ```python
 a = np.array([1, 2, 3])
 b = np.array([4, 5, 6])
 c = np.append(a, b)
@@ -83,7 +85,7 @@ The output is
 ```sh
 [1 2 3 4 5 6]
 [4 5 6 1 2 3 4 5 6]
-```
+``` -->
 
 ### List Using Fixed-Sized Array
 

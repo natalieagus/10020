@@ -66,6 +66,12 @@ class VertexSearch(Vertex):
         self.parent = None
 ```
 
+:::tip
+Try it out in the interactive code editor below
+:::
+
+<><iframe src="https://trinket.io/embed/python3/70ed9fe830?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
+
 The first line of the init is to call the _parent_ class' initialization and the subsequent lines proceed to initialize those attributes that is unique to the child class. In this way, we need not re-write all the initialization codes of the parent class and simply re-use them. Note that in overriding a method in the parent class, we use the same method's name and arguments as in the parent class.
 
 Let's discuss a few more examples of inheritance.
@@ -111,7 +117,24 @@ f4 = MixedFraction(1, 2) # this is the same as Fraction(1, 2)
 
 The UML class diagram can be seen as shown below.
 
-<ImageCard path={require("./images/fraction_mixedfraction.jpg").default} widthPercentage="30%"/>
+```mermaid
+classDiagram
+class MixedFraction{
+    __init__(self, top, bot, whole=0)
+    __str__(self)
+}
+class Fraction{
+    numerator
+    denominator
+    __init__(self, top, bot, whole=0)
+    __str__(self)
+    __add__(self, other)
+    __sub__(self, other)
+}
+Fraction <|-- MixedFraction
+```
+
+<!-- <ImageCard path={require("./images/fraction_mixedfraction.jpg").default} widthPercentage="30%"/> -->
 
 In the above UML diagram, we choose not to have any additional attributes but only different initialization arguments. This means that we have to initialize the numerator and the denominator from the three arguments used in the initialization `MixedFraction(top, bottom, whole)`, i.e.
 
@@ -135,7 +158,31 @@ Now, let's look at another example
 ## Queue and Deque
 
 Another example we can work on is to extend the class `Queue` to implement a new data structure called `Deque` (pronounced as deck). The difference between a `Queue` and a `Deque` is that in `Queue` the item only has one entrance which is from the back of the Queue. The exit of a `Queue` object is at the front of the Queue. On the other hand, a `Deque` can be inserted other from the front or from the rear. Its item also can be popped out from either the front or the rear. Below is the UML representation of the class diagram when `Queue` is implemented using a double Stack.
-<ImageCard path={require("./images/queue_deque.jpg").default} widthPercentage="30%"/>
+
+```mermaid
+classDiagram
+class Deque{
+    add_front(item)
+    add_rear(item)
+    remove_front(): item
+    remove_rear(): item
+    peek_front(): item
+    peek_rear(): item
+}
+class Queue{
+    left_stack
+    right_stack
+    /is_empty
+    /size
+    __init__()
+    enqueue(item)
+    dequeue(): item
+    peek(): item
+}
+Queue <|-- Deque
+```
+
+<!-- <ImageCard path={require("./images/queue_deque.jpg").default} widthPercentage="30%"/> -->
 
 Notice that in the above UML class diagram, we use `/` to represent computed property, i.e. `/size` and `/is_empty`. `Deque` does not have any additional attributes or property. The only changes are the methods. We rename and add additional methods for `Deque` class. In this cass, `add_rear(item)` of `Deque` is the same as `enqueue(item)` of a `Queue` object. Similarly, `remove_front()` method of `Deque` is the same as `dequeue()` of a `Queue` object. This is also true for the case of `peek_front()` and `peek()`. Thus, we need not re-write half of the methods in `Deque` class since we can simply call its parent class' methods.
 
@@ -160,43 +207,40 @@ Previously in `MixedFraction` class, we see how the child class' operations depe
 
 Python provides some mechanism to ensure that the abstract method in the abstract base class is implemented in the child class. Let's take a look at one example of this using `collections.abc` class. This `collections.abc` class is an Abstract Base Class for containers. For example, if we want to create a new data type belonging to a type `Iterable`, we can inherit this new class from `collections.abc.Iterable`. Python will force the new class to define the method `__iter__()`. Otherwise, Python will throw an error. Let's try it out in the next cell.
 
-```python
+<!-- ```python
 import  collections.abc as c
-
 class NotRightIterable(c.Iterable):
     def __init__(self):
         self.data = []
-
 test = NotRightIterable()
 ```
-
 The output is
-
 ```sh
 ---------------------------------------------------------------------------
 TypeError                                 Traceback (most recent call last)
 <ipython-input-3-04bbdf83346f> in <module>
       5         self.data = []
       6
-----> 7 test = NotRightIterable()
-
+      7 test = NotRightIterable() <---------
 TypeError: Can't instantiate abstract class NotRightIterable with abstract methods __iter__
-```
+``` -->
+
+<><iframe src="https://trinket.io/embed/python3/ab78c95e4f?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
 
 When you run the above cell, Python will complain saying that it cannot instantiate the new class because we did not implement the abstract method `__iter__()`. To fix this, we need to define this method in the child class.
 
-```python
+<!-- ```python
 import  collections.abc as c
-
 class RightIterable(c.Iterable):
     def __init__(self):
         self.data = []
 
     def __iter__(self):
         return iter(self.data)
-
 test = RightIterable()
-```
+``` -->
+
+<><iframe src="https://trinket.io/embed/python3/80d189528e?start=result" width="100%" height="350" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
 
 There will be no error when you run the above cell because now the method `__iter__()` has been implemented in the child class. The definition of `__iter__()` simply returns an iterable object from `self.data`.
 
