@@ -105,6 +105,7 @@ classDiagram
     Graph *-- Vertex
 ```
 
+<br/>
 The above UML diagram shows that a `Graph` is composed of one or more `Vertex` objects. This is another _composition_ relationship between two classes.
 
 We can specify the attributes and methods for both classes as shown in the image below.

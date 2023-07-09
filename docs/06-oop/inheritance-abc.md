@@ -135,7 +135,7 @@ Fraction <|-- MixedFraction
 ```
 
 <!-- <ImageCard path={require("./images/fraction_mixedfraction.jpg").default} widthPercentage="30%"/> -->
-
+<br/>
 In the above UML diagram, we choose not to have any additional attributes but only different initialization arguments. This means that we have to initialize the numerator and the denominator from the three arguments used in the initialization `MixedFraction(top, bottom, whole)`, i.e.
 
 $$
@@ -183,6 +183,8 @@ Queue <|-- Deque
 ```
 
 <!-- <ImageCard path={require("./images/queue_deque.jpg").default} widthPercentage="30%"/> -->
+
+<br/>
 
 Notice that in the above UML class diagram, we use `/` to represent computed property, i.e. `/size` and `/is_empty`. `Deque` does not have any additional attributes or property. The only changes are the methods. We rename and add additional methods for `Deque` class. In this cass, `add_rear(item)` of `Deque` is the same as `enqueue(item)` of a `Queue` object. Similarly, `remove_front()` method of `Deque` is the same as `dequeue()` of a `Queue` object. This is also true for the case of `peek_front()` and `peek()`. Thus, we need not re-write half of the methods in `Deque` class since we can simply call its parent class' methods.
 
