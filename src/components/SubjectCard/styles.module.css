@@ -44,11 +44,9 @@ html[data-theme="dark"] .subjectCard {
   background: var(--ifm-button-hover);
 }
 
-html[data-theme="dark"] {
-  .button__outline {
-    border-color: var(--blue-300);
-    color: var(--blue-300);
-  }
+html[data-theme="dark"] .button__outline {
+  border-color: var(--blue-300);
+  color: var(--blue-300);
 }
 
 .button:visited {
