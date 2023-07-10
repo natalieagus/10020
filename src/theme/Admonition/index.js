@@ -4,9 +4,13 @@ import { ThemeClassNames } from "@docusaurus/theme-common";
 import Translate from "@docusaurus/Translate";
 import styles from "./styles.module.css";
 import SVGKeyword from "@site/static/img/keys-icon.svg";
+import QNKeyword from "@site/static/img/qn-icon.svg";
 
 function KeywordIcon() {
   return <SVGKeyword />;
+}
+function ThinkIcon() {
+  return <QNKeyword />;
 }
 
 function NoteIcon() {
@@ -127,9 +131,21 @@ const AdmonitionConfigs = {
     label: (
       <Translate
         id="theme.admonition.keyword"
-        description="The default label used for the Kewyord admonition (:::keyword)"
+        description="The default label used for the Keyword admonition (:::keyword)"
       >
         keyword
+      </Translate>
+    ),
+  },
+  think: {
+    infimaClassName: "think",
+    iconComponent: ThinkIcon,
+    label: (
+      <Translate
+        id="theme.admonition.think"
+        description="The default label used for the Think admonition (:::think)"
+      >
+        think
       </Translate>
     ),
   },

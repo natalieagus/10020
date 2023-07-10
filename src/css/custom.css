@@ -385,6 +385,20 @@ html[data-theme="dark"] .alert--keyword {
   --ifm-alert-border-color: #ff6666;
 }
 
+/* Custom Admonition: Think */
+.alert--think {
+  --ifm-alert-background-color: #ffeb3baf;
+  --ifm-alert-background-color-highlight: #fffce6;
+  --ifm-alert-foreground-color: #2a270a;
+  --ifm-alert-border-color: #2a270a;
+}
+
+html[data-theme="dark"] .alert--think {
+  --ifm-alert-background-color: #ffeb3bb4;
+  --ifm-alert-background-color-highlight: #fffce6ca;
+  --ifm-alert-border-color: #3b4fff;
+}
+
 /* Custom h2 for card to not cause big DocCard */
 .card h2 {
   margin-top: 0rem !important;

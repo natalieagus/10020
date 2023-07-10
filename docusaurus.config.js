@@ -43,6 +43,7 @@ const config = {
               "important",
               "caution",
               "keyword",
+              "think",
             ],
           },
         },
