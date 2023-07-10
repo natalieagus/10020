@@ -149,11 +149,13 @@
     Helvetica, Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 1.75;
+  --ifm-font-color-base: #1c1e21;
 }
 
 html[data-theme="dark"] {
   --ifm-pre-background: #16181d !important;
-  --ifm-font-base-color: #dee0f2;
+  /* --ifm-font-color-base: #dee0f2; */
+  --ifm-font-color-base: #e3e3e3;
   --ifm-navbar-link-hover-color: #77b7d7;
   --ifm-link-color: #149eca;
   --ifm-color-primary: #79cedb;
@@ -454,4 +456,72 @@ html[data-theme="dark"] .alert--think {
 .docusaurus-mermaid-container {
   display: flex;
   justify-content: center;
+}
+
+@media print {
+  iframe {
+    display: none !important;
+  }
+  :root {
+    /* Docusaurus setting */
+    --ifm-color-primary: #087ea4 !important;
+    --ifm-color-primary-dark: #077194 !important;
+    --ifm-color-primary-darker: #076b8b !important;
+    --ifm-color-primary-darkest: #065873 !important;
+    --ifm-color-primary-light: #098bb4 !important;
+    --ifm-color-primary-lighter: #0991bd !important;
+    --ifm-color-primary-lightest: #0aa4d5 !important;
+    --ifm-color-secondary-dark: #381885 !important;
+    --ifm-color-secondary-contrast-background: #d2cde755 !important;
+
+    --ifm-code-font-size: 90% !important; /*95% !important;*/
+
+    --ifm-navbar-shadow: white !important;
+    --ifm-font-size-base: 16px !important;
+    --ifm-code-font-size: 90% !important;
+    --ifm-background-color: var(--white) !important;
+    --ifm-footer-background-color: #23272f !important;
+    --ifm-menu-color-background-active: var(
+      --ifm-color-emphasis-200
+    ) !important;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1) !important;
+    --search-local-modal-width: 480px !important;
+    --search-local-hit-active-color: #0a141c !important;
+    --ifm-breadcrumb-border-radius: 0.4rem !important;
+    --ifm-breadcrumb-padding-vertical: 0.2rem !important;
+
+    /* Custom components color */
+    --ifm-color-collapsible-accent: #0285ff !important;
+    --ifm-color-collapsible-content: #0071e911 !important;
+    --ifm-color-collapsible-content-hovered: #0071e923 !important;
+    --ifm-button-hover: var(--ifm-footer-background-color) !important;
+    --ifm-button-hover-color: white !important;
+    --ifm-border-color: #ccc !important;
+
+    /* Custom font setup */
+    font-family: "Chinese Quotes", "Inter var", "Inter", ui-sans-serif,
+      system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Helvetica, Arial, "Noto Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+      "Noto Color Emoji" !important;
+    line-height: 1.75 !important;
+    --ifm-font-color-base: #1c1e21 !important;
+  }
+
+  object {
+    filter: none !important;
+  }
+
+  .alert--think {
+    --ifm-alert-background-color: #ffeb3baf !important;
+    --ifm-alert-background-color-highlight: #fffce6 !important;
+    --ifm-alert-foreground-color: #2a270a !important;
+    --ifm-alert-border-color: #2a270a !important;
+  }
+  .alert--keyword {
+    --ifm-alert-background-color: #ffeaddb8 !important;
+    --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15) !important;
+    --ifm-alert-foreground-color: rgb(29, 29, 29) !important;
+    --ifm-alert-border-color: #ff6666 !important;
+  }
 }
