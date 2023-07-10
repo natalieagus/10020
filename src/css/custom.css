@@ -381,9 +381,9 @@ h3 {
 }
 
 html[data-theme="dark"] .alert--keyword {
-  --ifm-alert-background-color: #ffeadd3b;
+  --ifm-alert-background-color: #ffeadd23;
   --ifm-alert-background-color-highlight: rgba(212, 53, 28, 0.15);
-  --ifm-alert-foreground-color: rgb(209, 209, 209);
+  --ifm-alert-foreground-color: rgb(235, 211, 211);
   --ifm-alert-border-color: #ff6666;
 }
 
