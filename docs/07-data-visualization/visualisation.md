@@ -265,6 +265,14 @@ We can see that flat type in a way also has relationship with the floor area.
 
 One useful plot is called Pair Plot in Seaborn where it plots the relationship on multiple data columns.
 
+```python
+myplot = sns.pairplot(data=df_tampines)
+```
+
 <ImageCard path={require("./images/plot-10.png").default} widthPercentage="70%"/>
 
 The above plots immediately plot different scatter plots and histogram in a matrix form. The diagonal of the plot shows the histogram of that column data. The rest of the cell shows you the scatter plot of two columns in the data frame. From these, we can quickly see the relationship between different columns in the data frame.
+
+You can try to plot scatterplot and pair-plot yourself in the livecode block below:
+
+<><iframe src="https://trinket.io/embed/python3/fbf065e869?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></>
