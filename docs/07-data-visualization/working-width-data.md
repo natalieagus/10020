@@ -9,6 +9,8 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Working With Data
 
+Python Pandas is a powerful open-source library that provides high-performance data structures and data analysis tools, making it a popular choice for data manipulation, cleaning, analysis, and visualization tasks.
+
 <ChatBaseBubble/>
 
 ### Goals

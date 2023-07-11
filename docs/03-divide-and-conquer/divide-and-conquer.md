@@ -9,6 +9,8 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Recursion
 
+Recursion is a programming technique in which a function calls itself to solve a problem by breaking it down into smaller subproblems.
+
 <ChatBaseBubble/>
 
 ### Goals

@@ -9,6 +9,8 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Basics of Graph
 
+Graph theory is a mathematical discipline that studies the properties and relationships of graphs, which consist of nodes (vertices) connected by edges, enabling analysis of various real-world systems and phenomena.
+
 <ChatBaseBubble/>
 
 ### Goals

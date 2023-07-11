@@ -9,9 +9,11 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Visualization
 
+Data visualization using Matplotlib and Seaborn in Python enables the creation of informative and visually appealing plots, charts, and graphs, facilitating the exploration, understanding, and communication of patterns, trends, and insights within data.
+
 <ChatBaseBubble/>
 
-## Goals
+### Goals
 
 By the end of this lesson, you should be able to:
 
