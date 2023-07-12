@@ -47,57 +47,57 @@ Let's give an example for a particular input sequence and see how merge sort sol
 
 We split the array into two parts recursively until each array is left only with one element.
 
-<ImageCard path={require("./images/mergesort_split.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/mergesort_split.png").default} widthPercentage="40%"/>
 
 When we have the array with only one element, the array is trivially sorted. So now what we can do is to go up and merge the two array. This is shown in the figure below.
 
-<ImageCard path={require("./images/mergesort_merge.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/mergesort_merge.png").default} widthPercentage="40%"/>
 
 How do we merge the two arrays? We will give this example in the merge of the last step to get the final sorted array.
 
 The merge steps have three arrows as shown in the figure below, the _red_, _purple_, and _blue_. The red arrow points to the position of where to store the number in the sorted array. The purple arrow points to the number in the left array while the blue arrow points to the number in the right array. The merge step begins by comparing the number pointed by the purple arrow with the number pointed by the blue arrow. We then put the smaller number into the sorted array.
 
-<ImageCard path={require("./images/merge_steps01.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps01.png").default} widthPercentage="40%"/>
 
 We then move the arrow from which we move the number. In the example above 1 is smaller than 7, therefore, we put 1 into the position pointed by the red arrow and move the blue arrow to the next number.
 
-<ImageCard path={require("./images/merge_steps02.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps02.png").default} widthPercentage="40%"/>
 
 These steps continue as follows.
 
-<ImageCard path={require("./images/merge_steps03.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps03.png").default} widthPercentage="40%"/>
 
 ---
 
-<ImageCard path={require("./images/merge_steps04.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps04.png").default} widthPercentage="40%"/>
 
 ---
 
-<ImageCard path={require("./images/merge_steps05.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps05.png").default} widthPercentage="40%"/>
 
 ---
 
 At this point, both left and right array have the same value, i.e. 8. We can choose arbitrarily that when the value is the same, we will take the value from the left array.
 
-<ImageCard path={require("./images/merge_steps06.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps06.png").default} widthPercentage="40%"/>
 
 ---
 
-<ImageCard path={require("./images/merge_steps07.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps07.png").default} widthPercentage="40%"/>
 
 ---
 
 At this point, we have finished putting the right array. So the subsequent steps simply filling up the sorted array from the left array.
 
-<ImageCard path={require("./images/merge_steps08.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps08.png").default} widthPercentage="40%"/>
 
 ---
 
-<ImageCard path={require("./images/merge_steps09.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps09.png").default} widthPercentage="40%"/>
 
 ---
 
-<ImageCard path={require("./images/merge_steps10.png").default} widthPercentage="70%"/>
+<ImageCard path={require("./images/merge_steps10.png").default} widthPercentage="40%"/>
 
 ### (D)esign of Algorithm
 

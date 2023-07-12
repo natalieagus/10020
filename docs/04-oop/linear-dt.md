@@ -74,7 +74,7 @@ You can use [this animation](https://yongdanielliang.github.io/animation/web/Sta
 
 Queue is another common data structure that we find frequently in daily life. For example, the image below shows a queue of people to Louvre Museum.
 
-<ImageCard path={"https://upload.wikimedia.org/wikipedia/commons/6/61/Queue-to-the-Louvre.jpg"} widthPercentage="100%"/>
+<ImageCard path={"https://upload.wikimedia.org/wikipedia/commons/6/61/Queue-to-the-Louvre.jpg"} customClass={"no-invert-color"} widthPercentage="100%"/>
 
 Notice that Queue is different from Stack. Stack follows Last in First out principle. On the other hand, Queue follows the First in First out (FIFO) principle. The first person that enters the queue is the first person that can enter the Louvre Museum. We can abstract this as a kind of data structures shown below.
 
