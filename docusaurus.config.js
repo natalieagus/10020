@@ -56,15 +56,15 @@ const config = {
   ],
 
   plugins: [
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "psets",
-        path: "psets",
-        routeBasePath: "psets",
-        sidebarPath: require.resolve("./sidebars.js"),
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-content-docs",
+    //   {
+    //     id: "psets",
+    //     path: "psets",
+    //     routeBasePath: "psets",
+    //     sidebarPath: require.resolve("./sidebars.js"),
+    //   },
+    // ],
     [
       "@docusaurus/plugin-content-docs",
       {
@@ -88,7 +88,8 @@ const config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        docsRouteBasePath: ["psets", "projects", "docs", "about"],
+        // docsRouteBasePath: ["psets", "projects", "docs", "about"],
+        docsRouteBasePath: ["projects", "docs", "about"],
       },
     ],
     [
@@ -150,12 +151,12 @@ const config = {
             position: "left",
             activeBaseRegex: `/projects/`,
           },
-          {
-            to: "/psets/intro", // ./docs-api/Intro.md
-            label: "Psets",
-            position: "left",
-            activeBaseRegex: `/psets/`,
-          },
+          // {
+          //   to: "/psets/intro", // ./docs-api/Intro.md
+          //   label: "Psets",
+          //   position: "left",
+          //   activeBaseRegex: `/psets/`,
+          // },
           {
             to: "/roadmap", // ./docs-api/Intro.md
             label: "Roadmap",
@@ -178,10 +179,10 @@ const config = {
                 label: "Lecture Notes",
                 to: "/notes/introduction",
               },
-              {
-                label: "Problem Sets",
-                to: "/psets/intro",
-              },
+              // {
+              //   label: "Problem Sets",
+              //   to: "/psets/intro",
+              // },
               {
                 label: "Projects",
                 to: "/projects/intro",
