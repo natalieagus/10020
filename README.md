@@ -180,3 +180,78 @@ Then set the extension settings as follows:
 ![](/images/README/2023-07-13-10-56-14.png)
 
 This way, the extension is going to paste simply the path from current working directory, like `/images/bfs/2023-07-13-10-58-22.png` into `ImageBlock` component.
+
+## Adding new folder
+
+Lecture notes goes to `docs` folder by default. But, you can create new folder in the root, such as `projects`, `labs`, etc. First, create an entry point: `intro.md` (or any other name, just match it when declaring it in docusaurus config later) inside the new folder.
+
+Now update `docusaurus.config.js`.
+
+**Step 1**: register it under `@docusaurus/plugin-content-docs`:
+
+```
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "projects",
+        path: "projects",
+        routeBasePath: "projects",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "your-folder-name",
+        path: "your-folder-name",
+        routeBasePath: "your-folder-name",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+```
+
+**Step 2**: under `themes`, register it as `docsRouteBasePath`:
+
+```
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        docsRouteBasePath: ["projects", "docs", "about", "your-folder-name..."],
+      },
+    ],
+```
+
+**Step 3**: update the navbar to include your new folder:
+
+```
+      navbar: {
+        hideOnScroll: true,
+        title: "10.020",
+        logo: {
+          alt: "DDW Logo",
+          src: "img/home-logo.svg",
+        },
+        items: [
+          {
+            type: "search",
+            position: "right",
+          },
+          {
+            to: "/about/intro",
+            label: "About",
+            position: "left",
+            activeBaseRegex: `/about/`,
+          },
+          {
+            to: "/your-folder-name/intro",
+            label: "Navbar-Label",
+            position: "left",
+            activeBaseRegex: `/your-folder-name/`,
+          },
+          ...
+        ]
+        ...
+      }
+```
