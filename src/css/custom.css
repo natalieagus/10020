@@ -381,7 +381,7 @@ h3 {
 }
 
 html[data-theme="dark"] .alert--keyword {
-  --ifm-alert-background-color: #000000c5;
+  --ifm-alert-background-color: #090707c5;
   --ifm-alert-background-color-highlight: rgba(212, 52, 28, 0.591);
   --ifm-alert-foreground-color: rgb(255, 230, 230);
   --ifm-alert-border-color: #ff6666;
@@ -389,16 +389,17 @@ html[data-theme="dark"] .alert--keyword {
 
 /* Custom Admonition: Think */
 .alert--think {
-  --ifm-alert-background-color: #ffeb3baf;
+  --ifm-alert-background-color: #008cff67;
   --ifm-alert-background-color-highlight: #fffce6;
   --ifm-alert-foreground-color: #2a270a;
-  --ifm-alert-border-color: #2a270a;
+  --ifm-alert-border-color: #2d1d51;
 }
 
 html[data-theme="dark"] .alert--think {
-  --ifm-alert-background-color: #ffeb3bb4;
-  --ifm-alert-background-color-highlight: #fffce6ca;
-  --ifm-alert-border-color: #3b4fff;
+  --ifm-alert-background-color: #a2d1f8ea;
+  --ifm-alert-background-color-highlight: #fffce6;
+  --ifm-alert-foreground-color: #2a270a;
+  --ifm-alert-border-color: #510cf3;
 }
 
 /* Custom h2 for card to not cause big DocCard */
