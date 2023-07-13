@@ -68,9 +68,9 @@ const config = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "labs",
-        path: "labs",
-        routeBasePath: "labs",
+        id: "projects",
+        path: "projects",
+        routeBasePath: "projects",
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
@@ -88,7 +88,7 @@ const config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        docsRouteBasePath: ["psets", "labs", "docs", "about"],
+        docsRouteBasePath: ["psets", "projects", "docs", "about"],
       },
     ],
     [
@@ -145,10 +145,10 @@ const config = {
             label: "Notes",
           },
           {
-            to: "/labs/intro", // ./docs-api/Intro.md
-            label: "Labs",
+            to: "/projects/intro", // ./docs-api/Intro.md
+            label: "Projects",
             position: "left",
-            activeBaseRegex: `/labs/`,
+            activeBaseRegex: `/projects/`,
           },
           {
             to: "/psets/intro", // ./docs-api/Intro.md
@@ -183,8 +183,8 @@ const config = {
                 to: "/psets/intro",
               },
               {
-                label: "Labs",
-                to: "/labs/intro",
+                label: "Projects",
+                to: "/projects/intro",
               },
             ],
           },

@@ -13,23 +13,9 @@ Modify `docusaurus.config.js` to add support for the `fr` locale:
 ```js title="docusaurus.config.js"
 module.exports = {
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "fr"],
+    defaultLocale: 'en',
+    locales: ['en', 'fr'],
   },
-};
-```
-
-```js
-module.exports = {
-  tutorialSidebar: [
-    "intro",
-    "hello",
-    {
-      type: "category",
-      label: "Tutorial",
-      items: ["tutorial-basics/create-a-document"],
-    },
-  ],
 };
 ```
 
@@ -74,7 +60,7 @@ module.exports = {
       items: [
         // highlight-start
         {
-          type: "localeDropdown",
+          type: 'localeDropdown',
         },
         // highlight-end
       ],

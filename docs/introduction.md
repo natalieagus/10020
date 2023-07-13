@@ -16,53 +16,55 @@ This page summarises the links to all notes that are relevant to 10.020. Please 
 
 ### Week 01: Python Revision and Sorting Algorithm
 
-- [Bubble Sort and Insertion Sort](/notes/category/sorting-algorithms)
+- [Bubble Sort](/notes/category/sorting-algorithms)
+- [Insertion Sort](/notes/sorting-algorithms/insertion-sort)
 
 ### Week 02: Analysing Programs
 
-- [Binary Heap and Heapsort](http://localhost)
-- [Analysing Computation Time](http://localhost)
+- [Binary Heap](/notes/sorting-algorithms/binary-heap)
+- [Heapsort](/notes/sorting-algorithms/heapsort)
+- [Analysing Computation Time](/notes/computation-time)
 
 ### Week 03: Divide and Conquer
 
-- [Divide and Conquer](http://localhost)
-- [Merge Sort](http://localhost)
+- [Divide and Conquer](/notes/divide-and-conquer/divide-and-conquer)
+- [Merge Sort](/notes/divide-and-conquer/merge-sort)
 
 ### Week 04: Object-Oriented Paradigm
 
-- [Object Oriented Programming](http://localhost)
-- [Linear Data Structures](http://localhost)
+- [Object Oriented Programming](/notes/oop/oop)
+- [Linear Data Structures](/notes/oop/linear-dt)
 
 ### Week 05: Searching Data
 
-- [Introduction to Graph](http://localhost)
-- [Graph Search](http://localhost)
+- [Introduction to Graph](/notes/graphs/basics-graph)
+- Graph Search: [Breadth First Search](/notes/graphs/bfs) and [Depth First Search](/notes/graphs/dfs)
 
 ### Week 06: Inheritance and Object-Oriented Design
 
-- [Inheritance and Abstract Base Class](http://localhost)
-- [Fixed-Size Array and Linked List](http://localhost)
+- [Inheritance and Abstract Base Class](/notes/oop/inheritance-abc)
+- [Fixed-Size Array and Linked List](/notes/oop/array-linkedlist)
 
 ### Week 08: Visualizing and Processing Data
 
-- [Working With Data](http://localhost)
-- [Creating Plots using Matplotlib and Seaborn](http://localhost)
+- [Working With Data](/notes/data-visualization/working-width-data)
+- [Creating Plots using Matplotlib and Seaborn](/notes/data-visualization/visualisation)
 
 ### Week 09: Modeling Continuous Data
 
-- [Linear Regression](http://localhost)
-- [Multiple Linear Regression](http://localhost)
+- [Linear Regression](/notes/regression/linear-regresion)
+- [Multiple Linear Regression](/notes/regression/multiple-linear-regression)
 
 ### Week 10: Classifying Categorical Data
 
-- [Logistic Regression](http://localhost)
-- [Confusion Matrix and Metrics](http://localhost)
+- [Logistic Regression](/notes/classification/logistic-regression)
+- [Confusion Matrix and Metrics](/notes/classification/metrics)
 
 ### Week 12: Design of State Machines
 
-- [State Machine](http://localhost)
-- [SM Abstract Class](http://localhost)
-- [State Space Search](http://localhost)
+- [State Machine](/notes/sm/state-machine)
+- [SM Abstract Class](/notes/sm/state-machine-abc)
+- [State Space Search](/notes/sm/state-space-search)
 
 ### Contributors
 
