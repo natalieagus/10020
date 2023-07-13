@@ -134,7 +134,7 @@ const config = {
             position: "right",
           },
           {
-            to: "/about/intro", // ./docs-api/Intro.md
+            to: "/about/intro",
             label: "About",
             position: "left",
             activeBaseRegex: `/about/`,
@@ -146,19 +146,19 @@ const config = {
             label: "Notes",
           },
           {
-            to: "/projects/intro", // ./docs-api/Intro.md
+            to: "/projects/intro",
             label: "Projects",
             position: "left",
             activeBaseRegex: `/projects/`,
           },
           // {
-          //   to: "/psets/intro", // ./docs-api/Intro.md
+          //   to: "/psets/intro",
           //   label: "Psets",
           //   position: "left",
           //   activeBaseRegex: `/psets/`,
           // },
           {
-            to: "/roadmap", // ./docs-api/Intro.md
+            to: "/roadmap",
             label: "Roadmap",
             position: "left",
           },
