@@ -23,4 +23,4 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 ### Concept Map
 
-<ImageCard path={"https://drive.google.com/uc?export=view&id=1iLusuxa-wncnHcxOrRoX4207u07l18Nh"} widthPercentage="70%"/>
+<ImageCard path={"https://drive.google.com/uc?export=view&id=1iLusuxa-wncnHcxOrRoX4207u07l18Nh"} widthPercentage="100%"/>

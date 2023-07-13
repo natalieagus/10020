@@ -389,17 +389,17 @@ html[data-theme="dark"] .alert--keyword {
 
 /* Custom Admonition: Think */
 .alert--think {
-  --ifm-alert-background-color: #008cff67;
+  --ifm-alert-background-color: #008cff33;
   --ifm-alert-background-color-highlight: #fffce6;
   --ifm-alert-foreground-color: #2a270a;
   --ifm-alert-border-color: #2d1d51;
 }
 
 html[data-theme="dark"] .alert--think {
-  --ifm-alert-background-color: #a2d1f8ea;
+  --ifm-alert-background-color: #a2c9ff2d;
   --ifm-alert-background-color-highlight: #fffce6;
-  --ifm-alert-foreground-color: #2a270a;
-  --ifm-alert-border-color: #510cf3;
+  --ifm-alert-foreground-color: #ffffff;
+  --ifm-alert-border-color: #246dff;
 }
 
 /* Custom h2 for card to not cause big DocCard */

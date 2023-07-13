@@ -72,6 +72,21 @@ const config = {
         path: "projects",
         routeBasePath: "projects",
         sidebarPath: require.resolve("./sidebars.js"),
+        admonitions: {
+          tag: ":::",
+          keywords: [
+            "info",
+            "success",
+            "danger",
+            "note",
+            "tip",
+            "warning",
+            "important",
+            "caution",
+            "keyword",
+            "think",
+          ],
+        },
       },
     ],
     [
