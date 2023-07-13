@@ -177,6 +177,6 @@ Then set the extension settings as follows:
 
 ![](/images/README/2023-07-13-10-54-53.png)
 
-[](/images/README/2023-07-13-10-56-14.png)
+![](/images/README/2023-07-13-10-56-14.png)
 
 This way, the extension is going to paste simply the path from current working directory, like `/images/bfs/2023-07-13-10-58-22.png` into `ImageBlock` component.
