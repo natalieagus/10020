@@ -19,13 +19,13 @@ These projects require you to utilise the Command Line Inverface. Before you beg
 
 ## Mini Project 1
 
-This mini project is to create a simple html pages to generate random number and sort them.
+This mini project is to create a simple html pages to generate random number and sort them. [Read the handout here](/projects/sorting-app).
 
 <ImageCard path={require(".//images/intro/2023-07-13-15-21-51.png").default} widthPercentage="50%"/>
 
 ## Mini Project 2
 
-This mini project is to create a simple web application for math quiz where users can create simple math challenges and take up challenge from others.
+This mini project is to create a simple web application for math quiz where users can create simple math challenges and take up challenge from others. [Read the handout here](/projects/calculator).
 
 <ImageCard path={require(".//images/intro/2023-07-13-15-23-06.png").default} widthPercentage="100%"/>
 
