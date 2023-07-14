@@ -12,6 +12,7 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 There are 3 Mini Projects in 10.020. Two are compulsory, and one is optional.
 
 <ChatBaseBubble/>
+
 :::caution
 These projects require you to utilise the Command Line Inverface. Before you begin, please read the [background notes first](/projects/category/background).
 :::

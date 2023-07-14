@@ -4,7 +4,6 @@ import cn from "clsx";
 import { useThemeConfig } from "@docusaurus/theme-common";
 
 function useSubjectCardConfig() {
-  // TODO temporary casting until ThemeConfig type is improved
   return useThemeConfig().subjectCard;
 }
 
