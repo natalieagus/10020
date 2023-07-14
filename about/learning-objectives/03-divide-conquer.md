@@ -26,7 +26,7 @@ flowchart TD
     ALGO --> |learns| R((Recursion))
     ALGO --> |learns| S((Sorting))
     C  --> |computes| CT((Computational Time))
-    R --> |may use| HF ((Helper Function))
+    R --> |may use| HF((Helper Function))
     R --> |has| CS((cases))
     S --> |learns| MS((Mergesort))
     CT --> |draw| RT((Recursive Tree))
