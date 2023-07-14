@@ -47,7 +47,7 @@ This page summarises the links to all notes that are relevant to 10.020. Please 
 
 ### Week 08: Visualizing and Processing Data
 
-- [Working With Data](/notes/data-visualization/working-width-data)
+- [Working With Data](/notes/data-visualization/working-with-data)
 - [Creating Plots using Matplotlib and Seaborn](/notes/data-visualization/visualisation)
 
 ### Week 09: Modeling Continuous Data
