@@ -218,7 +218,7 @@ Now update `docusaurus.config.js`.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        docsRouteBasePath: ["projects", "docs", "about", "your-folder-name..."],
+        docsRouteBasePath: ["projects", "notes", "about", "your-folder-name..."],
       },
     ],
 ```

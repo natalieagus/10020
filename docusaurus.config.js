@@ -104,7 +104,7 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         // docsRouteBasePath: ["psets", "projects", "docs", "about"],
-        docsRouteBasePath: ["projects", "docs", "about"],
+        docsRouteBasePath: ["projects", "notes", "about"],
       },
     ],
     [
