@@ -27,11 +27,10 @@ Throughout these notes, you will see a button that says **Show Pseudocode** as s
 
 <DeepDive title="Show Pseudocode">
 
-```py
-def someFunction:
-  # Do something
-  return
-
+```
+Steps:
+1. Do this
+2. Then do that
 ```
 
 The purpose of this button is to show you the pseudocode of the algorithm. But more importantly, the button is placed there so that you **don't immediately** see the pseudocode. The purpose is for you to **write down your own pseudocode** and compare your pseudocode with what is provided in these notes.
