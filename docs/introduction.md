@@ -16,14 +16,14 @@ This page summarises the links to all notes that are relevant to 10.020. Please 
 
 ### Week 01: Python Revision and Sorting Algorithm
 
-- [Bubble Sort](/notes/category/sorting-algorithms)
+- [Bubble Sort](/notes/sorting-algorithms/bubble-sort)
 - [Insertion Sort](/notes/sorting-algorithms/insertion-sort)
 
 ### Week 02: Analysing Programs
 
-- [Binary Heap](/notes/sorting-algorithms/binary-heap)
-- [Heapsort](/notes/sorting-algorithms/heapsort)
-- [Analysing Computation Time](/notes/computation-time)
+- [Binary Heap](/notes/heap-complexity/binary-heap)
+- [Heapsort](/notes/heap-complexity/heapsort)
+- [Analysing Computation Time](/notes/heap-complexity/computation-time)
 
 ### Week 03: Divide and Conquer
 
@@ -42,8 +42,8 @@ This page summarises the links to all notes that are relevant to 10.020. Please 
 
 ### Week 06: Inheritance and Object-Oriented Design
 
-- [Inheritance and Abstract Base Class](/notes/oop/inheritance-abc)
-- [Fixed-Size Array and Linked List](/notes/oop/array-linkedlist)
+- [Inheritance and Abstract Base Class](/notes/inheritance/inheritance-abc)
+- [Fixed-Size Array and Linked List](/notes/inheritance/array-linkedlist)
 
 ### Week 08: Visualizing and Processing Data
 
