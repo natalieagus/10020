@@ -59,30 +59,26 @@ export default function Home() {
             <LinkCardGrid>
               <LinkCard
                 topIcon
-                label="Fundamental Algorithms"
-                description="The best way to warm up and practice your programming skills is by writing actual code. One of the common computation is to sort some items in some way. For example, sorting a number from smallest to biggest or names alphabetically. In this article, we will describe some sorting algorithms which you can implement in Python."
-                href="/notes/category/sorting-algorithms"
+                label="Algorithms and Data Structures"
+                description="The best way to get better at computing is by exposing yourself to more algorithms and data structures and actually implementing them. One of the common computation is to sort some items in some way.  For example, sorting a number from smallest to biggest or names alphabetically. In this article, we will describe some sorting algorithms which you can implement in Python. Moreover, you will learn various data structures that can make such computation faster. We will talk about what it means to be fast. We will also introduce you on how to work with non linear data such as trees and graphs."
                 Svg={gs_1}
               />
               <LinkCard
                 topIcon
-                label="Graph Theory"
-                description="Graphs are powerful mathematical structures that serve as a fundamental tool for representing and analyzing relationships between objects or entities. They provide a visual and abstract representation of interconnectedness, making them applicable to a wide range of fields, including computer science, mathematics, social sciences, and more."
-                href="/notes/category/graph-theory"
+                label="Object Oriented Programming"
+                description="Object Oriented Paradigm changes the way we code by thinking computation and data as objects. In fact, the whole software can be thought of as an object and an object can be composed of other objects. We will introduce on what object is and how we can create object that is made of other objects. We will use Object-Oriented paradigm to implement some data structures. Using the power of inheritance, we will offer the best practice in coding by reusing and extending code."
                 Svg={gs_2}
               />
               <LinkCard
                 topIcon
-                label="From Data to Predictions"
+                label="Introduction to Machine Learning"
                 description="The core idea behind machine learning is to enable computers to analyze and interpret large amounts of data, identify patterns, and make informed predictions or decisions based on that information. Instead of relying on explicit instructions, machine learning algorithms are designed to learn from examples and adapt their behavior accordingly."
-                href="/notes/category/data-visualisation"
                 Svg={gs_3}
               />
               <LinkCard
                 topIcon
-                label="Modeling and Controlling Dynamic Systems"
+                label="State Machines"
                 description="State machines are essential tools in computer science and control systems, and understanding their principles is crucial for building robust and efficient software and hardware systems. "
-                href="/notes/category/state-machine"
                 Svg={gs_4}
               />
             </LinkCardGrid>
