@@ -9,14 +9,7 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Week 9: Modelling Continuous Data
 
-- Write **objective** function of linear regression
-- Implement **Gradient Descent algorithm** for optimisation
-- Train **linear regression model** using gradient descent
-- Transform data for **higher** order features
-- Evaluate linear regression model using `r^2` and mean-squared-error
-- Evaluate and choose **learning rate**
-- Plot **cost** function over iteration time
-- Plot **linear** regression
+
 
 <ChatBaseBubble/>
 

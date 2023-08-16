@@ -8,14 +8,6 @@ import ImageCard from '@site/src/components/ImageCard';
 import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Week 1: Python
-
-- Apply Python's **procedural** programming and **basic** data structures
-- **Define** and **call** functions
-- Implement:
-  - Bubble sort and
-  - Insertion sort algorithms to **sort** a sequence of number
-- Use **print** statements to debug code
-
 <ChatBaseBubble/>
 
 ### Concept Map

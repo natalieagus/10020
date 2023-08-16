@@ -9,12 +9,6 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Week 8: Visualizing and Processing Data
 
-- Create **scatter** plot and statistical plots like box plot, histogram, and bar plot
-- Create a **Panda's DataFrame** and selecting data from DataFrame
-- Using library to read `CSV` or `EXCEL` file
-- **Split** data randomly into training set and testing set
-- **Normalize** data using min-max normalization
-- Give example of **linear regression and classification**
 
 <ChatBaseBubble/>
 

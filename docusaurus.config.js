@@ -98,13 +98,22 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "learning-objectives",
+        path: "learning-objectives",
+        routeBasePath: "learning-objectives",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
   ],
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         // docsRouteBasePath: ["psets", "projects", "docs", "about"],
-        docsRouteBasePath: ["projects", "notes", "about"],
+        docsRouteBasePath: ["projects", "notes", "learning-objectives", "about"],
       },
     ],
     [
@@ -132,7 +141,7 @@ const config = {
           },
           secondary: {
             label: "Learning Objectives",
-            href: "about/category/learning-objectives",
+            href: "learning-objectives",
           },
         },
       },
@@ -166,12 +175,12 @@ const config = {
             position: "left",
             activeBaseRegex: `/projects/`,
           },
-          // {
-          //   to: "/psets/intro",
-          //   label: "Psets",
-          //   position: "left",
-          //   activeBaseRegex: `/psets/`,
-          // },
+          {
+            to: "/learning-objectives/intro",
+            label: "Learning Objectives",
+            position: "left",
+            activeBaseRegex: `/learning-objectives/`,
+           },
           {
             to: "/roadmap",
             label: "Roadmap",
@@ -194,10 +203,10 @@ const config = {
                 label: "Lecture Notes",
                 to: "/notes/introduction",
               },
-              // {
-              //   label: "Problem Sets",
-              //   to: "/psets/intro",
-              // },
+              {
+                label: "Learning Objectives",
+                 to: "/learning-objectives/intro",
+              },
               {
                 label: "Projects",
                 to: "/projects/intro",

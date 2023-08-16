@@ -9,12 +9,7 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Week 2: Analysing Programs
 
-- Write functions to do **binary heap** data structure operation
-- Implement **heapsort** using iteration
-- Define **Big-O** notation and other asymptotic notations
-- Derive **complexity** of a code using its computation model
-- Create **plots** from array data for **visualising** computational time
-- **Measure** computation time for bubble sort, insertion sort, built-in sort, and heapsort
+
 
 <ChatBaseBubble/>
 
