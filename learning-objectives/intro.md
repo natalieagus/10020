@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
 import CollapsibleAnswer from '@site/src/components/CollapsibleAnswer';
@@ -9,12 +9,12 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 # Learning Objectives
 
-## Week 1: Sorting Algorithms 
+## Week 1: Sorting Algorithms
 
 #### [Concept Map](/learning-objectives/python)
 
-
 By the end of these lessons, students should be able to:
+
 - Apply Python's **procedural** programming and **basic** data structures
 - **Define** and **call** functions
 - Implement:
@@ -27,6 +27,7 @@ By the end of these lessons, students should be able to:
 #### [Concept Map](/learning-objectives/analysing-programs)
 
 By the end of these lessons, students should be able to:
+
 - Write functions to do **binary heap** data structure operation
 - Implement **heapsort** using iteration
 - Define **Big-O** notation and other asymptotic notations
@@ -39,6 +40,7 @@ By the end of these lessons, students should be able to:
 #### [Concept Map](/learning-objectives/divide-conquer)
 
 By the end of these lessons, students should be able to:
+
 - Solve problems using **recursion**
 - Identify problems that has recursive solutions
 - Explain and implement **merge sort** algorithm
@@ -50,6 +52,7 @@ By the end of these lessons, students should be able to:
 #### [Concept Map](/learning-objectives/oop)
 
 By the end of these lessons, students should be able to:
+
 - Create `class` definitions with initialization and other methods
 - Create **stored** property and **computed** property
 - Draw UML class diagram of a class with attributes and methods
@@ -65,6 +68,7 @@ By the end of these lessons, students should be able to:
 #### [Concept Map](/learning-objectives/searching-data)
 
 By the end of these lessons, students should be able to:
+
 - Use **Dictionary** to represent graph
 - Apply **basic** dictionary operations
 - Define **graph**, **vertices**, **edges** and **weights**
@@ -80,6 +84,7 @@ By the end of these lessons, students should be able to:
 #### [Concept Map](/learning-objectives/inheritance)
 
 By the end of these lessons, students should be able to:
+
 - Inherit a class to create a **child** class
 - Explain `is-a` relationship
 - Draw **UML** diagram for `is-a` relationship
@@ -92,6 +97,7 @@ By the end of these lessons, students should be able to:
 #### [Concept Map](/learning-objectives/vis-proc)
 
 By the end of these lessons, students should be able to:
+
 - Create **scatter** plot and statistical plots like box plot, histogram, and bar plot
 - Create a **Panda's DataFrame** and selecting data from DataFrame
 - Using library to read `CSV` or `EXCEL` file
@@ -104,6 +110,7 @@ By the end of these lessons, students should be able to:
 #### [Concept Map](/learning-objectives/modelling)
 
 By the end of these lessons, students should be able to:
+
 - Write **objective** function of linear regression
 - Implement **Gradient Descent algorithm** for optimisation
 - Train **linear regression model** using gradient descent
@@ -118,6 +125,7 @@ By the end of these lessons, students should be able to:
 #### [Concept Map](/learning-objectives/classify)
 
 By the end of these lessons, students should be able to:
+
 - Write objective function of **logistic** regression
 - Use logistic regression to **calculate** probabilities of binary classification
 - Train logistic **regression** model
@@ -131,13 +139,10 @@ By the end of these lessons, students should be able to:
 #### [Concept Map](/learning-objectives/sm)
 
 By the end of these lessons, students should be able to:
+
 - Define a **state machine**
 - Implement an **Abstract Base Class** for State Machine using abc module
 - Define **output** function and **next** state function
 - Draw **state transition diagram** and **time-step table**
 - **Implement** output function and next state function inside `get_next_values` overridden method.
 - **Apply** breadth first search to perform state-space search
-
-
-
-
