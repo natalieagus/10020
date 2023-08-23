@@ -526,3 +526,7 @@ html[data-theme="dark"] .alert--think {
     --ifm-alert-border-color: #ff6666 !important;
   }
 }
+
+.hidden {
+  display: none !important;
+}

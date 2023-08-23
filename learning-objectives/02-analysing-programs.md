@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+sidebar_class_name: hidden
 ---
 
 import CollapsibleAnswer from '@site/src/components/CollapsibleAnswer';
