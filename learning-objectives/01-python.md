@@ -29,6 +29,9 @@ flowchart TD
     C --> |write| C2((function call))
     C1 --> |uses| C11((local variables))
     C1 --> |specify| C12((return values))
+    C1 --> |defining| C13((input parameters))
+    C13 --> |aliasing| PY
+    C2 --> |pass| C21((arguments))
     PY --> |determine| PY1((length))
     PY --> |access| G
     K --> |compare| G
@@ -41,10 +44,11 @@ flowchart TD
     PY2 --> |write| PY22((nested))
     PY22 --> |determines which to use| PY221((index))
     L((generating<br>random integer)) --> |requires| L1((import))
+    L --> |uses| PY21
     L --> |calls| L2((built-in<br>function))
     L --> |uses| C
     L --> |returns| PY
-    PY21 --> |uses| L
+    L --> |uses| C1
 
 
 

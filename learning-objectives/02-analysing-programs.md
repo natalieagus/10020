@@ -47,6 +47,7 @@ flowchart TD
     N --> |access| CHLD
     TR --> |has| LF((Leaf))
     TR --> |has| RT((Root))
+    TR --> |has| N
     RT --> |is-a| N
     LF --> |is-a| N
     LF --> |has no| CHLD
@@ -74,4 +75,5 @@ flowchart TD
     CT --> |can be| QUBIC((Qubic))
     QC --> |faster than| QUBIC
     QUBIC --> |faster than| EXP((Exponential))
+    CT --> |can be | EXP
 ```

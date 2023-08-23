@@ -24,8 +24,8 @@ flowchart TD
     PK --> |how to| CT((Create))
     PK --> |on| DT((Dictionary))
     style DT color:dodgerblue
-    A --> |has| K((key))
-    A --> |has| V((value))
+    A -->  K((key))
+    A -->  V((value))
     CE --> |in a| L((List))
     style L color:dodgerblue
     T --> K
@@ -43,29 +43,30 @@ flowchart TD
     AL --> |implemented using| DT
     AL --> |uses| L
     AL --> |implemented using| OO((Object Oriented))
-    G --> |creates| V((Vertex))
-    G --> |has| D((direction))
+    G --> |creates| VX((Vertex))
+    G --> |can have| D((direction))
     G --> |has| VS((Vertices))
     VS --> |is a| DT
     W --> |learns| ALGO((Algorithm))
-    ALGO --> |implements| S2D((Search 2D))
+    style ALGO color:red
+    ALGO --> |implements| S2D((Search2D))
     S2D --> |has a| GS((Graph Search))
     GS --> |is a child of| G
     VS --> |collection of| V
-    V  --> |has| ID((id_))
-    V --> |has| N((neighbours))
-    N --> |collection of| V
+    VX  --> |has| ID((id_))
+    VX --> |has| N((neighbours))
+    N --> |collection of| VX
     OO --> |defines| CL((Class))
-    CL --> |for| V
+    CL --> |for| VX
     N --> |is a| DT
     N --> |for key| DV((destination Vertex))
     N --> |for value| WEIGHT((weight))
     D --> |has| EDGE((Edge))
     EDGE --> |has| WEIGHT
     N --> |describes| EDGE
-    EDGE --> |connects two| V
+    EDGE --> |connects two| VX
     GS --> |creates| VSH((Vertex Search))
-    VSH --> |is a child of| V
+    VSH --> |is a child of| VX
     VSH --> |has| CDFP((color,d,f,parent))
     UGS((UGraphSearch)) --> |is a child of| GS
     UGS --> |for| UG((Undirected Graph))

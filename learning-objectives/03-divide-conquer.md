@@ -28,11 +28,12 @@ flowchart TD
     S --> |learns| MS((Mergesort))
     CT --> |draw| RT((Recursive Tree))
     CT --> |is| EXP((exponential))
+    EXP --> |for| TOH
     CT --> |is| LL((Log Linear))
     MS --> |uses| R
     CS --> |uses| IE((if-else))
     CS --> |has| BASE((base))
-    CS --> |is| REC((recursive))
+    CS --> |has| REC((recursive))
     RT --> |for| TOH((Tower of Hanoi))
     RT --> |for| MS
     LL --> |for| MS

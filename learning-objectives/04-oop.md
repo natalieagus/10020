@@ -38,6 +38,7 @@ flowchart TD
     STACK --> |has| PUSH
     STACK --> |has| POP
     STACK --> |has| I((items))
+    I --> |is a| ATTR
     QUEUE((QUEUE)) --> |has| I
     DS((Data Structure)) --> |learns| STACK
     DS((Data Structure)) --> |learns| QUEUE

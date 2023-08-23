@@ -16,4 +16,39 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 
 ### Concept Map
 
-<ImageCard path={"https://drive.google.com/uc?export=view&id=1wSyrCyG3fFRR-CSCKfMadnhngANKVrcU"} widthPercentage="100%"/>
+```mermaid
+flowchart TD
+    W((Week 10 Logistic<br>Regression)) --> |creates| HYP((hypothesis))
+    W --> |uses| CF((cost function))
+    W --> |learns| METR((metrics))
+    HYP --> |uses| PROB((probability))
+    PROB --> |uses| LF((logistic function))
+    LINF((linear function)) --> |maps to| LF
+    LINF --> |has| COEFF((coefficients))
+    PROB --> |determines| CAT((category))
+    CAT --> |can be| MC((multi-class))
+    CAT --> |can be| BIN((binary))
+    MC --> |uses| ONEVALL((one-vs-all))
+    ONEVALL --> |transforms to| BIN
+    CF --> |uses| HYP
+    MN((matrix notation)) --> |for| HYP
+    MN --> |for| CF
+    MN --> |for| UF((update function))
+    CF --> |determines| UF
+    GD((gradient descent)) --> |uses| CF
+    GD --> |derives| UF
+    UF --> |determines| COEFF
+    METR --> |uses| CONFM((confusion matrix))
+    CONFM --> |has| CAS((Cases))
+    CAS --> |has| POS((Positives))
+    CAS --> |has| NEG((Negatives))
+    CONFM --> |calculates| SPEC((specificity))
+    CONFM --> |calculates| SENS((sensitivity))
+    CONFM --> |calculates| PREC((precision))
+    CONFM --> |calculates| ACCR((accuracy))
+    POS --> |can be| True
+    POS --> |can be| False
+    NEG --> |can be| True
+    NEG --> |can be| False
+```
+<!-- <ImageCard path={"https://drive.google.com/uc?export=view&id=1wSyrCyG3fFRR-CSCKfMadnhngANKVrcU"} widthPercentage="100%"/> -->
