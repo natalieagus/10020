@@ -65,4 +65,6 @@ flowchart TD
     STR --> |has| SETTER
 ```
 
-<!-- <ImageCard path={"https://drive.google.com/uc?export=view&id=1iLusuxa-wncnHcxOrRoX4207u07l18Nh"} widthPercentage="100%"/> -->
+See below if you need to zoom in.
+
+<iframe src="https://sutdapac-my.sharepoint.com/personal/oka_kurniawan_sutd_edu_sg/_layouts/15/embed.aspx?UniqueId=7f81adec-bb66-4ba8-88e2-354388207b96" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="DDW Concept Map-Week 4.drawio.png"></iframe>

@@ -61,4 +61,7 @@ flowchart TD
     DATSET --> |split into| TRAIN((Training))
 
 ```
-<!-- <ImageCard path={"https://drive.google.com/uc?export=view&id=1PUZkAsRJLcGxEfqDXC-QQlKa6TQu2oNO"} widthPercentage="100%"/> -->
+
+See below if you need to zoom in.
+
+<iframe src="https://sutdapac-my.sharepoint.com/personal/oka_kurniawan_sutd_edu_sg/_layouts/15/embed.aspx?UniqueId=59eba8ec-acb5-4e47-9910-3d3a4a44dede" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="DDW Concept Map-Week 8.drawio.png"></iframe>

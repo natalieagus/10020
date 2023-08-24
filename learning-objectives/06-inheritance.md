@@ -76,4 +76,6 @@ flowchart TD
 
 ```
 
-<!-- <ImageCard path={"https://drive.google.com/uc?export=view&id=1w2gDKUfvnDlcmRwZa-rQ7DzuXqBFctJQ"} widthPercentage="100%"/> -->
+See below if you need to zoom in.
+
+<iframe src="https://sutdapac-my.sharepoint.com/personal/oka_kurniawan_sutd_edu_sg/_layouts/15/embed.aspx?UniqueId=bbf1ab08-5a84-4ee8-b5e9-7e1c67ee57b5" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="DDW Concept Map-Week 6.drawio.png"></iframe>

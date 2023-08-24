@@ -51,4 +51,7 @@ flowchart TD
     NEG --> |can be| True
     NEG --> |can be| False
 ```
-<!-- <ImageCard path={"https://drive.google.com/uc?export=view&id=1wSyrCyG3fFRR-CSCKfMadnhngANKVrcU"} widthPercentage="100%"/> -->
+
+See below if you need to zoom in.
+
+<iframe src="https://sutdapac-my.sharepoint.com/personal/oka_kurniawan_sutd_edu_sg/_layouts/15/embed.aspx?UniqueId=e42dafc6-9fe5-423c-8e6b-19e9c03b829e" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="DDW Concept Map-Week 10.drawio.png"></iframe>

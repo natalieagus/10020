@@ -41,4 +41,7 @@ flowchart TD
     CT --> |for| R
 ```
 
-<!-- <ImageCard path={"https://drive.google.com/uc?export=view&id=1TRve3OUUgiqjE8DvUDA4breOvj6pmqK2"} widthPercentage="100%"/> -->
+See below if you need to zoom in.
+
+<iframe src="https://sutdapac-my.sharepoint.com/personal/oka_kurniawan_sutd_edu_sg/_layouts/15/embed.aspx?UniqueId=ea2493e1-e9ca-4f2e-892b-fe82e7b2dec4" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="DDW Concept Map-Week 3.drawio.png"></iframe>
+

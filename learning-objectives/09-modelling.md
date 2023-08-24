@@ -44,4 +44,6 @@ flowchart TD
     METR --> |can be| R2((r^2))
 ```
 
-<!-- <ImageCard path={"https://drive.google.com/uc?export=view&id=15EkM4XMdMyYjLkg_yFgeKlsgpl-qYjUU"} widthPercentage="100%"/> -->
+See below if you need to zoom in.
+
+<iframe src="https://sutdapac-my.sharepoint.com/personal/oka_kurniawan_sutd_edu_sg/_layouts/15/embed.aspx?UniqueId=847f4d69-5c81-4a7a-b112-65c671b194c1" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="DDW Concept Map-Week 9.drawio.png"></iframe>

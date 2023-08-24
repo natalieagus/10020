@@ -77,3 +77,8 @@ flowchart TD
     QUBIC --> |faster than| EXP((Exponential))
     CT --> |can be | EXP
 ```
+
+
+See below if you need to zoom in.
+
+<iframe src="https://sutdapac-my.sharepoint.com/personal/oka_kurniawan_sutd_edu_sg/_layouts/15/embed.aspx?UniqueId=df84c255-051b-45d1-ab23-5b98f3475718" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="DDW Concept Map-Week 2.drawio.png"></iframe>
