@@ -22,7 +22,7 @@ By the end of this lesson, you should be able to:
 - Implement Queue using double **Stack** and discuss implementation **impact** on computation time
 
 :::keyword Keywords
-`data structure, stack, queue, pop, push, enqueue, dequeue`
+`data structure`, `stack`, `queue`, `pop`, `push`, `enqueue`, `dequeue`
 :::
 
 ## Introduction

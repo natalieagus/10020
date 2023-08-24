@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to:
 - Draw UML class diagram for `has-a` relationship
 
 :::keyword Keywords
-`object, class, instance, UML, composition, ha,a relationship, attribute, method, property, computed property, getter, setter, special method`
+`object`, `class`, `instance`, `UML`, `composition`, `has-a relationship`, `attribute`, `method`, `property`, `computed property`, `getter`, `setter`, `special method`
 :::
 
 ## What is Object Oriented Programming?
