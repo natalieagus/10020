@@ -13,10 +13,12 @@ Insertion sort is a comparison-based sorting algorithm that builds the final sor
 
 ### Goals
 
-By the end of this lesson, you should be able to implement **bubble sort**.
+By the end of this lesson, you should be able to:
+- describe **insertion sort** algorithm steps and ways to optimise them.
+- implement **insertion sort** algorithm.
 
 :::keyword Keywords
-`insertion sort`
+`sorting`, `insertion sort`
 :::
 
 Insertion sort is another algorithm that solves the same problem as bubble sort. Let's start by looking at the same test case.

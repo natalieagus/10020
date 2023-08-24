@@ -19,7 +19,6 @@ By the end of this lesson, you should be able to:
 - Explain and implement **merge sort** algorithm
 - Derive solution of **recurrence** of merge sort using recursion-tree method
 - Measure computation time of merge sort and **compare** it with the other sort algorithms
--
 
 :::keyword Keywords
 `sorting`, `mergesort`, `log linear time complexity`

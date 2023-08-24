@@ -13,7 +13,9 @@ Bubble sort is a simple comparison-based sorting algorithm that repeatedly swaps
 
 ### Goals
 
-By the end of this lesson, you should be able to implement **bubble sort**.
+By the end of this lesson, you should be able to:
+- describe **bubble sort** algorithm steps and ways to optimise them.
+- implement **bubble sort** algorithm to sort a sequence of number.
 
 :::keyword Keywords
 `sorting`, `bubble sort`

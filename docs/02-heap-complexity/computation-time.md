@@ -20,9 +20,10 @@ By the end of this lesson, you should be able to:
 - Define **Big-O** notation and other asymptotic notations
 - Derive **complexity** of a code using its computation model
 - **Measure** computation time for bubble sort, insertion sort, built-in sort, and heapsort
+- Create **plots** from array data for **visualising** computational time
 
 :::keyword Keywords
-`complexity`, `time complexity`, `asymptotic notation`, `computation time`, `computational model`, `logarithmic, linear, log-linear, quadratic, polynomial, exponential`
+`complexity`, `time complexity`, `asymptotic notation`, `computation time`, `computational model`, `logarithmic`, `linear`, `log-linear`, `quadratic`, `polynomial`, `exponential`
 :::
 
 ## Introduction

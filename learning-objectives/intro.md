@@ -17,9 +17,8 @@ By the end of these lessons, students should be able to:
 
 - Apply Python's **procedural** programming and **basic** data structures
 - **Define** and **call** functions
-- Implement:
-  - Bubble sort and
-  - Insertion sort algorithms to **sort** a sequence of number
+- describe **bubble sort** and **insertion sort** algorithm and ways to optimise it.
+- Implement Bubble sort and Insertion sort algorithms to **sort** a sequence of number
 - Use **print** statements to debug code
 
 ## Week 2: Analysing Programs
@@ -28,6 +27,10 @@ By the end of these lessons, students should be able to:
 
 By the end of these lessons, students should be able to:
 
+- Implement **binary heap** using Python's built-in list
+- Describe **heap property**
+- Describe the steps to **build heap**
+- Implement algorithm to restore **heap property**
 - Write functions to do **binary heap** data structure operation
 - Implement **heapsort** using iteration
 - Define **Big-O** notation and other asymptotic notations
@@ -130,7 +133,6 @@ By the end of these lessons, students should be able to:
 - Use logistic regression to **calculate** probabilities of binary classification
 - Train logistic **regression** model
 - Split data into **training**, **validation**, and **testing** set
-- Visualize **non-linear** decision boundary
 - Classify **multi-class** problems using one-vs-all technique
 - Calculate **confusion** **matrix**, **precision**, and **recall**
 

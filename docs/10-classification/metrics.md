@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to:
 - Calculate confusion matrix, precision, and recall
 
 :::keyword Keywords
-metrics, confusion matrix, accuracy, precision, sensitivity, specificity, positive case, negative case
+`metrics`, `confusion matrix`, `accuracy`, `precision`, `sensitivity`, `specificity`,   `positive case`, `negative case`
 :::
 
 ## Introduction

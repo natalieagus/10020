@@ -23,7 +23,7 @@ By the end of this lesson, you should be able to:
 - Split data into **training**, **validation**, and **testing** set
 
 :::keyword Keywords
-`classification, hypothesis, probability, logistic function, coefficients, binary classification, cost function, gradient descent, update function, matrix notation`
+`classification`, `hypothesis`, `probability`, `logistic function`, `coefficients`, `binary classification`, `cost function`, `gradient descent`, `update function`, `matrix notation`
 :::
 
 ## Introduction

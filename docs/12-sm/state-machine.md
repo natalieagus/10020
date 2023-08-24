@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to:
 - Define a **state machine**
 
 :::keyword Keywords
-`state machine, start state, pure function, state transition diagram, time step table`
+`state machine`, `start state`, `pure function`, `state transition diagram`, `time step table`
 :::
 
 ## State Machine as a Function

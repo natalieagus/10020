@@ -23,7 +23,7 @@ By the end of this lesson, you should be able to:
 - **Implement** output function and next state function inside `get_next_values` overridden method.
 
 :::keyword Keywords
-`start state, get_next_values, next state, current state, abstract base class, abstract method`
+`start state`, `get_next_values`, `next state`, `current state`, `abstract base class`, `abstract method`
 :::
 
 ## Designing StateMachine Class

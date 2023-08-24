@@ -15,10 +15,11 @@ In this lesson we will detour a little bit to discuss two kinds of list. One is 
 
 ### Goals
 
-By the end of this lesson, you should be able to implement **Array** and **Linked List** data structure from the same base class.
+By the end of this lesson, you should be able to:
+- implement **Array** and **Linked List** data structure from the same base class.
 
 :::keyword Keywords
-`abstract data type, list, fixed size array, linked list`
+`abstract data type`, `list`, `fixed size array`, `linked list`
 :::
 
 ## Fixed-Size Array

@@ -16,10 +16,11 @@ Breadth-first search is a graph traversal algorithm that explores all the vertic
 
 ### Goals
 
-By the end of this lesson, you should be able to explain and implement **breadth** first search
+By the end of this lesson, you should be able to:
+- explain and implement **breadth** first search
 
 :::keyword Keywords
-`graph traversal, breadth first search, distance`
+`graph traversal`, `breadth first search`, `distance`, `colour`, `parent vertex`
 :::
 
 ## Introduction

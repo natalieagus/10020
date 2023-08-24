@@ -25,7 +25,7 @@ By the end of this lesson, you should be able to:
 - Plot **linear** regression
 
 :::keyword Keywords
-`linear regression, hypothesis, coefficients, update function, gradient descent, matrix form, metrics, mean squared error, coefficient of determination`
+`linear regression`, `hypothesis`, `coefficients`, `update function`, `gradient descent`, `matrix form`, `metrics`, `mean squared error`, `coefficient of determination`
 :::
 
 ## Introduction

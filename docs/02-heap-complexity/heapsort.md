@@ -14,10 +14,11 @@ Heapsort is a comparison-based sorting algorithm that builds a binary heap data 
 
 ### Goals
 
-By the end of this lesson, you should be able to implement **heapsort** using iteration.
+By the end of this lesson, you should be able to:
+- Implement **heapsort** using iteration.
 
 :::keyword Keywords
-`heapsort`
+`binary heap`, `heap property`, `heapify`,`heapsort`
 :::
 
 ## Introduction
