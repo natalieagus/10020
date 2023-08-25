@@ -23,7 +23,7 @@ By the end of this lesson, you should be able to:
 - Write functions to do **binary heap** data structure operation
 
 :::keyword Keywords
-`tree`, `binary tree`, `root`, `heap`, `heap property`, `heapify`, `node`, `leaf`, `parent node`, `child node`
+`tree`, `binary tree`, `root`, `binary heap`, `heap property`, `heapify`, `node`, `leaf`, `parent node`, `child node`
 :::
 
 ## Introduction
