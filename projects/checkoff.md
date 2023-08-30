@@ -14,7 +14,6 @@ import ChatBaseBubble from "@site/src/components/ChatBaseBubble";
 To obtain **all 5 pts** of MP marks, you need to **submit** your project to Vocareum <span style={{ "color":"red", "fontWeight": "bold" }}>and</span> complete the in-person **checkoff**. Please approach **your cohort's TA** or your cohort's **instructor** during Mini Project session of the week for checkoff.
 
 Ensure that you have submitted the code to Vocareum and **done** with the checkoff this **BEFORE the deadline** (refer to your course handout and Vocareum).
-{:.info}
 
 There are 3 criterias for the grading as reflected in Vocareum. They make up the 5pts:
 
@@ -34,7 +33,6 @@ Before you approach them for checkoff, you need to ensure that <span style={{ "c
 Our instructor/TA will then record the points for your MP in our internal excel sheet (and/or Vocareum). We will release it after the MP deadline.
 
 Please bring your laptop(s) and open your project when you approach our TA/Instructor for checkoff. **We want to see your program in person.**
-{:.info}
 
 ## Q&A Grading Breakdown
 
@@ -55,7 +53,6 @@ Here's the general rubric for the Q&A section **for each exercise**:
 | 😵‍💫 `0`     | **No idea** at all about the project, not even about admin matters like which file should contain their answer                      |
 
 Note that we might ask any of you for answers. Please ensure that everybody knows all parts of the project, at least the big picture. This is where you will learn.
-{:.info}
 
 ## Mini Project 1 Details
 

@@ -18,7 +18,6 @@ This notes compile all sorts of bugs that you _might_ encounter when running the
 We have given the steps to you in the `README` file, we have also written additional explanations for you. But as the cherry on top, here's the steps:
 
 We assume you follow the _easy step_, which is to clone the original repository and just paste your answer.
-{:.info}
 
 1. **Clone** the repository
    ```shell

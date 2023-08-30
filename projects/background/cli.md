@@ -29,7 +29,6 @@ Most of you have been using your computer daily by interacting with its Desktop 
 You customise your desktop: wallpaper, shortcuts, files, screensaver --- forming a **desktop environment** that you can interact with _graphically_ (e.g: move mouse and click).
 
 A desktop environment typically consists of icons, windows, toolbars, folders, wallpapers and desktop widgets.
-{:.info}
 
 Long before Desktop GUI is made, people interact with their computers via the the **Command Line Interface** (CLI, also known as the termina). They enter **commands** via text to use the computer entirely. For example, suppose we want to rename the folder `Data-Driven-World.github.io` to `Data-Driven-World-website.github.io`. You might think that **renaming** a file can only be done by right clicking on the file and then ---> `rename`.
 
@@ -117,7 +116,6 @@ When you want to run a Python script, you can use the command `python file.py`, 
 #### Summary
 
 The **first word** of each command that you have to enter to the CLI is **most likely** the **name** of the program that you want to execute. Whatever that comes on the right side of that program name is the **input** to that program.
-{:.info}
 
 A special exception is `cd` (this is not a program, go and take ISTD subject 50.005 to find out more), but all other commands you will use for `mp_sort` is a program. Try to find where the following resides (the path) in your computer and open it via the GUI file finder:
 
@@ -131,7 +129,6 @@ A special exception is `cd` (this is not a program, go and take ISTD subject 50.
 Each file on a computer has a **path**, such as `C:\Users\natalie_agus\Downloads\d2w_mini_projects\mp_sort\application.py` or `/Users/natalie_agus/Downloads/d2w_mini_projects/mp_sort/application.py`. Usually we can shorten it into `~/Downloads/example-file.txt` where `~` is `/Users/natalie_agus`, also known as your **home** path.
 
 The reason one uses `/` (macOS/Linux) and the other `\` (Windows) is because each OS uses a **different file system**. Think of it like a different manager and storage system.
-{:.info}
 
 Folders also have a **path**. The path of the `Downloads` folder is then `C:\Users\natalie_agus\Downloads` or `/Users/natalie_agus/Downloads`. It is important for your terminal to "open" the right folder before executing a command, otherwise you **may not find the file**. You can find out your terminal's current "opened" folder using the `pwd` command (macOS/Linux) or `cd` (without any parameter) for Windows.
 
@@ -157,12 +154,10 @@ For instance, `cd /Users/natalie_agus/Downloads/d2w_mini_projects/mp_sort` opens
 <ImageCard customClass={"no-invert-color"} path={require("./images/11.gif").default} widthPercentage="70%"/>
 
 Tips: press `tab` to **autocomplete** certain commands. The example you saw above utilises many terminal **extensions** to make your terminal **pretty**. macOS or Linux users, do yourself a favor and read [this article](https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb).
-{:.info}
 
 ## **PATH** Environment Variable
 
 Not to be confused with file **path** concept above.
-{:.error}
 
 `PATH` is simply a **variable** containing a **list** of directories to search when you enter a command into the command line. Formally, it is called **environment variable** but you don't have to understand what it means for now (take 50.005 in ISTD to find out more). This is the **magic** behind command execution.
 
@@ -204,7 +199,6 @@ zsh/bash: command not found: [name]
 ```
 
 The above is simply an indication that your computer has searched through your `PATH` variable, but has not managed to find the **program** whose **name** **matches** the requested command.
-{:.info}
 
 To **fix** this, we simply need to ensure that our computer can **find** this executable. Windows handles this differently from macOS/Linux, so we describe the process for both operating system types:
 
@@ -314,7 +308,6 @@ This is because despite these modules being **present** somewhere in your comput
 ### Summary
 
 When you work on **various projects**, they will require **various modules**. You want to be **more organised** and have a separated **environment** (a dedicated place where modules for each individual project is stored). This is what `pipenv` is for.
-{:.info}
 
 Note that you can install any module without `pipenv`, with the command:
 

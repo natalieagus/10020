@@ -42,7 +42,6 @@ All these files: `.js, .css, .html` are **processed** and **rendered** by our br
 The big question now is: **who** sent these files over to our browser? **Who** is this "entity" that answered our "request" when we type in the URL in the search bar, and _then_ reply with these bunch of files for our browser to render and eventually for us to read?
 
 This "entity" is called a **web server**. Just like a regular restaurant _server_, the web server's job is to **give** (serve) relevant files when **requested**.
-{:.info}
 
 A web server is an application (just like any regular application in your computer such as your Elden Ring, Telegram, Web Browser, VSCode, etc) and it _typically_ does not have a graphical user interface. It has **one main job**, to reply to website-related requests directed to it. The "internet" is just a generic name of various **infrastructures** to make it possible for your computer to **communicate** (send "packets" of data) with other computers (servers) around the world so that you can load your Netflix series and play Valorant.
 
@@ -98,7 +97,6 @@ app.run(host='0.0.0.0', port=81)
 ```
 
 The file `app.py` **must** be in this name. `flask` looks for `app` folder or `app.py` file as an **entry point**.
-{:.warning}
 
 This will prompt you to open `http://127.0.0.1:5000/` on your browser, and you will be met with the message `My first server!` which is what's returned by the `index()` function above.
 
