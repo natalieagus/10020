@@ -11,7 +11,7 @@ const config = {
   title: "Data Driven World 🌏",
   tagline: "The best way to learn programming is to write programs",
   url: "https://data-driven-world.github.io",
-  baseUrl: "/2023/",
+  baseUrl: "/10020/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
