@@ -8,12 +8,12 @@ let quizdownConfig = {
   shuffleQuestions: false, // shuffle questions for each quiz
   nQuestions: undefined, // display n questions at random, if shuffleQuestions is true
   primaryColor: "steelblue", // primary CSS color
-  secondaryColor: "#f2f2f2", // secondary CSS color
-  textColor: "black", // text color of some elements
+  secondaryColor: "#EFEFF0", // secondary CSS color
+  textColor: "#0C0A3E", // text color of some elements
   locale: null, // language of the user interface (auto-detect per default)
 };
 
-export default function ReviewQuiz({ content, config, children }) {
+export default function ReviewQuiz({ content, name, children }) {
   const statusQuizdown = useScript(
     "https://libraries-csd.s3.ap-southeast-1.amazonaws.com/quizdown.js"
   );
@@ -23,6 +23,8 @@ export default function ReviewQuiz({ content, config, children }) {
   const statusQuizdownHighlight = useScript(
     "https://libraries-csd.s3.ap-southeast-1.amazonaws.com/quizdownHighlight.js"
   );
+
+  let currentDivName = name === undefined ? "quizdown" : name;
 
   function initQuizdown(event) {
     if (
@@ -37,7 +39,7 @@ export default function ReviewQuiz({ content, config, children }) {
         .init();
       window.quizdown.createApp(
         content,
-        document.querySelector(".quizdown"),
+        document.querySelector("." + currentDivName),
         quizdownConfig
       );
     } else {
@@ -59,7 +61,7 @@ export default function ReviewQuiz({ content, config, children }) {
               Begin Quiz
             </button>
           </div>
-          <div className="quizdown"></div>
+          <div className={currentDivName}></div>
         </div>
       )}
     </div>
