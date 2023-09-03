@@ -113,7 +113,12 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         // docsRouteBasePath: ["psets", "projects", "docs", "about"],
-        docsRouteBasePath: ["projects", "notes", "learning-objectives", "about"],
+        docsRouteBasePath: [
+          "projects",
+          "notes",
+          "learning-objectives",
+          "about",
+        ],
       },
     ],
     [
@@ -180,7 +185,7 @@ const config = {
             label: "Learning Objectives",
             position: "left",
             activeBaseRegex: `/learning-objectives/`,
-           },
+          },
           {
             to: "/roadmap",
             label: "Roadmap",
@@ -205,7 +210,7 @@ const config = {
               },
               {
                 label: "Learning Objectives",
-                 to: "/learning-objectives/intro",
+                to: "/learning-objectives/intro",
               },
               {
                 label: "Projects",

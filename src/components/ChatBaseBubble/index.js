@@ -1,5 +1,5 @@
 import React from "react";
-import useScript from "../../hooks/useScript";
+import useScriptChatbase from "../../hooks/useScriptChatbase";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import ExecutionEnvironment from "@docusaurus/ExecutionEnvironment";
 
@@ -8,8 +8,9 @@ export default function ChatBaseBubble() {
   const canUseDOM = ExecutionEnvironment.canUseDOM;
   if (canUseDOM) {
     url = require("@site/static/chatbase.js").default;
+    console.log("url", url);
   }
-  useScript(url, canUseDOM);
+  useScriptChatbase(url, canUseDOM);
 
   return <BrowserOnly>{() => <div></div>}</BrowserOnly>;
 }
