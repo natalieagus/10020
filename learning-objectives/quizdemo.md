@@ -1,5 +1,5 @@
 ---
-sidebar_position: 100
+sidebar_class_name: hidden
 ---
 
 # Quiz Demo
