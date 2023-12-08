@@ -20,7 +20,7 @@ By the end of this lesson, you should be able to:
 - Calculate confusion matrix, precision, and recall
 
 :::keyword Keywords
-`metrics`, `confusion matrix`, `accuracy`, `precision`, `sensitivity`, `specificity`,   `positive case`, `negative case`
+`metrics`, `confusion matrix`, `accuracy`, `precision`, `sensitivity`, `specificity`, `positive case`, `negative case`
 :::
 
 ## Introduction
@@ -72,7 +72,7 @@ $$
 This means our model have 80% accuracy. In general, the accuracy formula can be written as:
 
 $$
-\text{accuracy} = \frac{\text{TP} + \text{TN}}{\text{Total Cases}}
+\text{accuracy} = \frac\{\text{TP} + \text{TN}}{\text{Total Cases}}
 $$
 
 where TP is the number of True Positive cases, TN is the number of True Negative cases. You can also see accuracy as a fraction of the green circle over the blue circle in the image below.

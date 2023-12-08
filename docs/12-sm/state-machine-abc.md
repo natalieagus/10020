@@ -494,7 +494,7 @@ print(acc.step(-41)) # outputs 0
 
     AttributeError                            Traceback (most recent call last)
 
-    <ipython-input-29-234b6b850979> in <module>
+    \<ipython-input-29-234b6b850979> in \<module>
           1 acc = AccumulatorSM()
           2 # acc.start()
     ----> 3 print(acc.step(10)) # outputs 10
@@ -502,7 +502,7 @@ print(acc.step(-41)) # outputs 0
           5 print(acc.step(-5)) # outputs 30
 
 
-    <ipython-input-22-556607471350> in step(self, inp)
+    \<ipython-input-22-556607471350> in step(self, inp)
           8     def step(self, inp):
           9         try:
     ---> 10             ns, o = self.get_next_values(self.state, inp)
